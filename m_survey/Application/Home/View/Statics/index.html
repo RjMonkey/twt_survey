@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天外天问卷中心</title>
+    <link href="__PUBLIC__/css/PCStyle.css" rel="stylesheet">
+    <link rel="icon" href="__PUBLIC__/img/PageIcon.jpg">
+</head>
+<body>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+
+<script>
+    $(function() {
+        $("body").prepend("<header class='PC-header'></header>");
+        $(".PC-header").load("{:U('Template/header')}", function () {
+            $(".PC-header ul li:eq(3)").append("<div class='triangleTop'></div>");
+        })
+    })
+
+    function clickThat(){
+        $("#btn1").click();
+    }
+</script>
+
+<div class="QIndexContent">
+    <div class="Qheader">
+        <h2>最新问卷</h2>
+        <form action="__CONTROLLER__/search_result" method="post">
+            <button id="btn1" type="submit" style="display: none">Clickme</button>
+            <input type="text" name="content" placeholder="搜索相关问卷"><img onclick="clickThat()" src="__PUBLIC__/img/DesignIcons/search.png"  width="20" height="20">
+            <div class="clearFloat" style="height: 12px;"></div>
+        </form>
+    </div>
+
+    <!--One Line-->
+    <div class="QLine">
+        <!--block-->
+        <volist name="survey" id="data" offset="0" length="4">
+            <div class="QBlock">
+                <a href="__CONTROLLER__/statisticsDetail/survey_id/{$data.survey_id}"><img src="__PUBLIC__/img/QuesIndex/Block1.png" width="100%"></a>
+                <a href="__CONTROLLER__/statisticsDetail/survey_id/{$data.survey_id}"><p>{$data.title}</p></a>
+                <div class="total">
+                    <img src="__PUBLIC__/img/QuesIndex/TimeIcon.png"><span>{$data.fabu_time}</span>
+                    <img src="__PUBLIC__/img/QuesIndex/WatchedIcon.png"><span>{$data.hit}</span>
+                    <img src="__PUBLIC__/img/QuesIndex/AnswerIcon.png"><span>{$data.num_of_answer}</span>
+                </div>
+            </div>
+        </volist>
+        <!--block-->
+
+        <div class="clearFloat"></div>
+    </div>
+
+    <!--One Line-->
+    <div class="QLine">
+        <!--block-->
+        <volist name="survey" id="data" offset="4" length="7">
+
+            <div class="QBlock">
+                <a href="__CONTROLLER__/statisticsDetail/survey_id/{$data.survey_id}"><img src="__PUBLIC__/img/QuesIndex/Block1.png" width="100%"></a>
+                <a href="__CONTROLLER__/statisticsDetail/survey_id/{$data.survey_id}"><p>{$data.title}</p></a>
+                <div class="total">
+                    <img src="__PUBLIC__/img/QuesIndex/TimeIcon.png"><span>{$data.fabu_time}</span>
+                    <img src="__PUBLIC__/img/QuesIndex/WatchedIcon.png"><span>{$data.hit}</span>
+                    <img src="__PUBLIC__/img/QuesIndex/AnswerIcon.png"><span>65</span>
+                </div>
+            </div>
+        </volist>
+
+        <!--block-->
+
+        <div class="clearFloat"></div>
+    </div>
+
+    <div class="Qbottom">
+
+        <a href="__CONTROLLER__/index/p/{$pre}"><span>前一页</span></a>
+        <if condition="$p gt 1">
+            <a href="__CONTROLLER__/index/p/1"><span>首页</span></a>
+            <if condition="$pre neq 1">
+                <label>...</label>
+            </if>
+            <a href="__CONTROLLER__/index/p/{$pre}">{$p-1}</a>
+
+        </if>
+
+        <a class="ahover">{$p}</a>
+        <if condition="$p neq $last">
+            <a href="__CONTROLLER__/index/p/{$after}">{$p+1}</a>
+        </if>
+        <if condition="($p eq 1) AND ($after lt $last)">
+            <a href="__CONTROLLER__/index/p/{$afterAgain}">{$p+2}</a>
+        </if>
+        <if condition="$p neq $last">
+            <label>...</label>
+        </if>
+        <a href="__CONTROLLER__/index/p/{$last}"><span>末页</span></a>
+        <a href="__CONTROLLER__/index/p/{$after}"><span>下一页</span></a>
+    </div>
+</div>
+
+
+</body>
+</html>

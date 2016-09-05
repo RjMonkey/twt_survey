@@ -1,0 +1,1473 @@
+[ 2016-05-06T00:33:26+08:00 ] 127.0.0.1 /m_survey/index.php/Design/createQ
+ERR: 非法操作:createq
+
+[ 2016-05-06T00:33:36+08:00 ] 127.0.0.1 /m_survey/index.php/Design/createQ
+ERR: 非法操作:createq
+
+[ 2016-05-06T12:01:32+08:00 ] 127.0.0.1 /m_survey/index.php/Design/createQ
+ERR: 非法操作:createq
+
+[ 2016-05-06T14:20:46+08:00 ] 127.0.0.1 /m_survey/index.php/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2016-05-06T14:20:48+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0306s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie' LIMIT 1   [ RunTime:0.0353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2016-05-06T14:20:51+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` > 0 ORDER BY survey_status desc  [ RunTime:0.0136s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` = 0  [ RunTime:0.0198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2016-05-06T14:20:51+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2016-05-06T14:20:53+08:00 ] 127.0.0.1 /m_survey/index.php/Design/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2016-05-06T14:20:54+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2016-05-06T14:20:58+08:00 ] 127.0.0.1 /m_survey/index.php/Design/insert/method/qInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0219s ]
+SQL: INSERT INTO `wenjuan_main` (`title`,`description`,`create_time`,`update_time`,`user_id`,`survey_status`,`hit`) VALUES ('sdgvsdf','bzxb','1462515658','1462515658','5','0','0') [ RunTime:0.3885s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0405s ]
+SQL: UPDATE `wenjuan_user` SET `user`='guorenjie',`survey_id`='@149@150',`answer_survey_id`=NULL,`ip`=NULL,`stunumb`=NULL WHERE `user_id` = 5 [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2016-05-06T14:21:00+08:00 ] 127.0.0.1 /m_survey/index.php/Design/modify/survey_id/150.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\d949ef92c807802259f72f0b1cb8ac38.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2016-05-06T14:21:00+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001952s ]
+
+[ 2016-05-06T14:21:02+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addQues/survey_id/150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Use of undefined constant Single - assumed 'Single' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\e1948db701bd017eb2efd0d71ba48296.php 第 44 行.
+NOTIC: [8] Use of undefined constant Multiply - assumed 'Multiply' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\e1948db701bd017eb2efd0d71ba48296.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-05-06T14:21:03+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addFillQues/data/Fill/survey_id/150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2016-05-06T14:21:04+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addFillQues/data/Fill/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2016-05-06T14:21:04+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001702s ]
+
+[ 2016-05-06T14:21:18+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addQ/survey_id/150/data/Fill
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0247s ]
+SQL: INSERT INTO `wenjuan_question` (`question_type`,`survey_id`,`question_content`,`is_must`,`max_num`) VALUES ('3','150','填空题','1','2') [ RunTime:0.0792s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\xammp\htdocs\m_survey\Phone\Home\Controller\DesignController.class.php 第 127 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001814s ]
+
+[ 2016-05-06T14:21:19+08:00 ] 127.0.0.1 /m_survey/index.php/Design/modify/survey_id/150.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0303s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\d949ef92c807802259f72f0b1cb8ac38.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2016-05-06T14:21:20+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001826s ]
+
+[ 2016-05-06T14:21:22+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addQues/survey_id/150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Use of undefined constant Single - assumed 'Single' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\e1948db701bd017eb2efd0d71ba48296.php 第 44 行.
+NOTIC: [8] Use of undefined constant Multiply - assumed 'Multiply' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\e1948db701bd017eb2efd0d71ba48296.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2016-05-06T14:21:23+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addFillQues/data/Fill/survey_id/150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2016-05-06T14:21:23+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addFillQues/data/Fill/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-05-06T14:21:23+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-05-06T14:21:28+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addQ/survey_id/150/data/Fill
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0324s ]
+SQL: INSERT INTO `wenjuan_question` (`question_type`,`survey_id`,`question_content`,`is_must`,`max_num`) VALUES ('3','150','发送','1','1') [ RunTime:0.1309s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\xammp\htdocs\m_survey\Phone\Home\Controller\DesignController.class.php 第 127 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2016-05-06T14:21:30+08:00 ] 127.0.0.1 /m_survey/index.php/Design/modify/survey_id/150.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0246s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\d949ef92c807802259f72f0b1cb8ac38.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2016-05-06T14:21:30+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2016-05-06T14:21:32+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addQues/survey_id/150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Use of undefined constant Single - assumed 'Single' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\e1948db701bd017eb2efd0d71ba48296.php 第 44 行.
+NOTIC: [8] Use of undefined constant Multiply - assumed 'Multiply' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\e1948db701bd017eb2efd0d71ba48296.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2016-05-06T14:21:33+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addFillQues/data/Fill/survey_id/150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-05-06T14:21:34+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addFillQues/data/Fill/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003765s ]
+
+[ 2016-05-06T14:21:34+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2016-05-06T14:21:39+08:00 ] 127.0.0.1 /m_survey/index.php/Design/addQ/survey_id/150/data/Fill
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0236s ]
+SQL: INSERT INTO `wenjuan_question` (`question_type`,`survey_id`,`question_content`,`is_must`,`max_num`) VALUES ('3','150',' SDG点三国杀','1','4') [ RunTime:0.0628s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\xammp\htdocs\m_survey\Phone\Home\Controller\DesignController.class.php 第 127 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2016-05-06T14:21:41+08:00 ] 127.0.0.1 /m_survey/index.php/Design/modify/survey_id/150.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002910s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0683s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0351s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0297s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\d949ef92c807802259f72f0b1cb8ac38.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002182s ]
+
+[ 2016-05-06T14:21:41+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-05-06T14:21:43+08:00 ] 127.0.0.1 /m_survey/index.php/Design/index/survey_id/150.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2016-05-06T14:21:43+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001950s ]
+
+[ 2016-05-06T14:21:45+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` > 0 ORDER BY survey_status desc  [ RunTime:0.0146s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` = 0  [ RunTime:0.0092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 62 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 66 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 67 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 68 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-05-06T14:21:45+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2016-05-06T14:21:50+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/post/survey_id/150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0728s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '150' LIMIT 1   [ RunTime:0.0334s ]
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1462515710',`survey_status`='1' WHERE wenjuan_main.survey_id = '150' [ RunTime:0.1737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2016-05-06T14:21:52+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` > 0 ORDER BY survey_status desc  [ RunTime:0.0212s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` = 0  [ RunTime:0.0175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2016-05-06T14:21:52+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2016-05-06T14:21:57+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/look/survey_id/150/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0611s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0287s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0282s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0706s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\256b8f2cb13a5182ad9394ad6aeb2c90.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2016-05-06T14:21:57+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-05-06T14:22:21+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/look/survey_id/150/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0138s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0127s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\256b8f2cb13a5182ad9394ad6aeb2c90.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2016-05-06T14:22:21+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2016-05-06T14:22:36+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/look/survey_id/150/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0353s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0506s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.1961s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0232s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\256b8f2cb13a5182ad9394ad6aeb2c90.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2016-05-06T14:22:36+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/look/survey_id/150/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0315s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0293s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0298s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\256b8f2cb13a5182ad9394ad6aeb2c90.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002372s ]
+
+[ 2016-05-06T14:22:37+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2016-05-06T14:22:58+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/look/survey_id/150/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0269s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0306s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0175s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0379s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\256b8f2cb13a5182ad9394ad6aeb2c90.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2016-05-06T14:22:59+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2016-05-06T14:23:13+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/look/survey_id/150/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0808s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0244s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0139s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\256b8f2cb13a5182ad9394ad6aeb2c90.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2016-05-06T14:23:14+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2016-05-06T14:23:21+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/look/survey_id/150/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0158s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0094s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\256b8f2cb13a5182ad9394ad6aeb2c90.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2016-05-06T14:23:21+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2016-05-06T14:55:53+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/look/survey_id/150/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001780s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 150 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 150  [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 136 ORDER BY option_num  [ RunTime:0.0225s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 137 ORDER BY option_num  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 138 ORDER BY option_num  [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\256b8f2cb13a5182ad9394ad6aeb2c90.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002264s ]
+
+[ 2016-05-06T14:55:54+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-05-06T21:31:17+08:00 ] 127.0.0.1 /m_survey/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001807s ]
+
+[ 2016-05-06T21:31:25+08:00 ] 127.0.0.1 /m_survey/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2016-05-06T21:31:27+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie' LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2016-05-06T21:31:34+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` > 0 ORDER BY survey_status desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` = 0  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 62 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 66 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 67 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 68 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-05-06T21:31:35+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002921s ]
+
+[ 2016-05-06T21:33:21+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/tongji/survey_id/149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 149 LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 149  [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 133 ORDER BY option_num  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 134 ORDER BY option_num  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 135 ORDER BY option_num  [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2016-05-06T21:46:14+08:00 ] 127.0.0.1 /m_survey/index.php/Fill/index/survey_id/149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_id` = 149 LIMIT 1   [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `wenjuan_question` WHERE `survey_id` = 149  [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wenjuan_option` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 133 ORDER BY option_num  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 134 ORDER BY option_num  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wenjuan_option` WHERE `question_id` = 135 ORDER BY option_num  [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: HTTP_X_FORWARDED_FOR F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 147 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 149 行.
+SQL: SHOW COLUMNS FROM `wenjuan_result` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wenjuan_result` WHERE `ip` = '127.0.0.1' AND `survey_id` = 149 LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wenjuan_result` WHERE `survey_id` = 149 LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\0aa7da905d7ac4242b159b639311b49c.php 第 30 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\0aa7da905d7ac4242b159b639311b49c.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2016-05-06T21:46:15+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2016-05-06T21:46:31+08:00 ] 127.0.0.1 /m_survey/index.php/Fill/add/survey_id/149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `wenjuan_question` [ RunTime:0.0047s ]
+SQL: SELECT `question_id`,`question_type` FROM `wenjuan_question` WHERE `question_id` = 133 LIMIT 1   [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: HTTP_X_FORWARDED_FOR F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 147 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 149 行.
+SQL: SHOW COLUMNS FROM `wenjuan_result` [ RunTime:0.0087s ]
+SQL: INSERT INTO `wenjuan_result` (`question_id`,`question_type`,`result_content`,`survey_id`,`answer_user_id`,`ip`) VALUES ('133','1','2','149','5','127.0.0.1') [ RunTime:0.0990s ]
+SQL: SELECT `question_id`,`question_type` FROM `wenjuan_question` WHERE `question_id` = 134 LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: HTTP_X_FORWARDED_FOR F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 147 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 149 行.
+SQL: INSERT INTO `wenjuan_result` (`question_id`,`question_type`,`result_content`,`survey_id`,`answer_user_id`,`ip`) VALUES ('134','2','0@1@2','149','5','127.0.0.1') [ RunTime:0.0127s ]
+SQL: SELECT `question_id`,`question_type` FROM `wenjuan_question` WHERE `question_id` = 135 LIMIT 1   [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: HTTP_X_FORWARDED_FOR F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 147 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP F:\xammp\htdocs\m_survey\Phone\Home\Common\function.php 第 149 行.
+SQL: INSERT INTO `wenjuan_result` (`question_id`,`question_type`,`result_content`,`survey_id`,`answer_user_id`,`ip`) VALUES ('135','3','阿凡达发放额风格范围分为该公司的公司的','149','5','127.0.0.1') [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001941s ]
+
+[ 2016-05-06T21:46:33+08:00 ] 127.0.0.1 /m_survey/index.php/MyQuestionnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` > 0 ORDER BY survey_status desc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` = 0  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 45 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 46 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 50 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 52 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 53 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 62 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 66 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 67 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 68 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' F:\xammp\htdocs\m_survey\Phone\Runtime\Cache\Home\f288bd5c5407895be9f438f8204d0c93.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2016-05-06T21:46:33+08:00 ] 127.0.0.1 /m_survey/index.php/Template/nav-left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+

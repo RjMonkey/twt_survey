@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天外天问卷中心</title>
+    <link href="__PUBLIC__/css/PCStyle.css" rel="stylesheet">
+    <link rel="icon" href="__PUBLIC__/img/PageIcon.jpg">
+</head>
+<body style="text-align: center">
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/jquery.reveal.js"></script>
+<script src="__PUBLIC__/js/canvasjs.min.js"></script>
+<script>
+    $(function() {
+        $("body").prepend("<header class='PC-header'></header>");
+        $(".PC-header").load("{:U('Template/header')}", function () {
+            $(".PC-header ul li:eq(3)").append("<div class='triangleTop'></div>");
+        })
+    })
+</script>
+
+
+
+
+<form class="FillContent">
+    <h1></h1>
+    <img src="__PUBLIC__/img/Icons/LINE.png">
+    <div class="FillContainer">
+        <p class="title"></p>
+    </div>
+</form>
+
+
+<!--画图-->
+<script>
+
+    $(function(){
+
+
+        $.get("__CONTROLLER__/statics/survey_id/{$sid}", function(data){
+            data = JSON.parse(data);
+            var Qid = data.survey_id;
+            var Qtitle = data.title
+            var Qdesc = data.description;
+
+            if(Qtitle != ""){
+                $(".FillContent h1").text(Qtitle);
+            }else{
+                $(".FillContent h1").text("未命名");
+            }
+
+            $("p.title").text(Qdesc);
+
+            var question = data.question;
+            var i;
+            for(i = 0; i < question.length; i++){
+                if(question[i].question_type == 1 || question[i].question_type == 2){
+                    var T = "<div id='canvas"+i+"' style='height: 500px; width: 90%; margin: 100px auto;'></div>";
+                    $(".FillContainer").append(T);
+                    RenderChart("canvas"+i+"",question[i],question[i].option.length);
+                }
+                else if(question[i].question_type == 3){
+                    var t = "Q"+question[i].question_id + "."+question[i].question_content;
+                    var Surl = "__CONTROLLER__/fillInResult/Sid/"+Qid+"/Qid/"+ question[i].question_id
+                    var T = "<div class='FillInQuesTake'>"+t+"<a href="+Surl+" style='float: right;color:lightseagreen'>点击查看答题情况</a></div>"
+                    $(".FillContainer").append(T);
+                }else{
+                    alert("数据有误请联系天外天后台君");
+                    break;
+                }
+
+            }
+        })
+    })
+
+    function RenderChart(DomID, data, items){
+        var DynamicData = [];
+
+        for(var i = 0; i<items; i++){
+            var temp = {y: data.option[i].sum, indexLabel: data.option[i].option_content};
+            DynamicData.push(temp);
+        }
+        var chart = new CanvasJS.Chart(DomID,
+                {
+                    theme: "theme",
+                    title:{
+                        text: "Q" +　data.question_id + "." + data.question_content
+                    },
+                    data: [
+                        {
+                            type: "pie",
+                            showInLegend: true,
+                            toolTipContent: "{y} - #percent %",
+                            yValueFormatString: "#0.#,,. Million",
+                            legendText: "{indexLabel}",
+                            dataPoints:DynamicData
+                        }
+                    ]
+                });
+        chart.render();
+    }
+
+    function ReaderFillInQues(data){
+
+    }
+</script>
+</body>
+</html>

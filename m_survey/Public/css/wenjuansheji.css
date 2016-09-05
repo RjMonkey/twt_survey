@@ -1,0 +1,260 @@
+body {
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 123px;
+    background-image: url("../img/wenjuansheji.png");
+}
+header nav {
+    position: relative;
+    left: 30.7%;
+    top:25px;
+}
+header li {
+    list-style-type: none;
+    display: inline;
+    margin: 2%;
+}
+header li a {
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+header #exitBar {
+    color: #f7f7f7;
+    position: absolute;
+    right: 5%;
+    top: 27px;
+}
+header button {
+    background-color: transparent;
+    border: none;
+    color: #f7f7f7;
+    font-size: 18px;
+    font-family: 微软雅黑;
+}
+header button#exit {
+    border-left: solid;
+    border-left-color: #f7f7f7;
+    border-left-width: medium;
+}
+form {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    background-color: transparent;
+    height: 100px;
+    padding: 2%;
+}
+.biaoTiClass {
+
+}
+.sidebar {
+    position: absolute;
+    top: 28px;
+    right: 18px;
+    float: right;
+    width: 109px;
+    height: 400px;
+    padding: 0;
+    background-color: white;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+}
+
+#exitButton {
+    margin: 0;
+    width: auto;
+    height: 100px;
+}
+.sidebar #exitButton img {
+    position: relative;
+    left: 29%;
+    top: 23%;
+}
+.sidebar div:hover {
+    cursor: pointer;
+}
+.addButton {
+    height: 45px;
+}
+.addButton img {
+    border: none;
+    position: relative;
+    left: 0px;
+}
+.biaoTiClass {
+    position: relative;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    border:solid #cccccc 1px;
+    width: 960px;
+    height: 100px;
+    background-color: white;
+}
+.workClass {
+    padding: 0;
+    margin: 0;
+    border-bottom:solid #cccccc 1px;
+    height: 50%;
+    width: 100%;
+}
+.workClass p {
+    float: left;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.workClass input {
+    float: left;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.leftTag {
+    position: relative;
+    border-right:solid #cccccc 1px;
+    width: 50px;
+    height: 50px;
+}
+.rightTag {
+    position: relative;
+    left: 60px;
+    width: 400px;
+    height: 50px;
+    top: -50px;
+    color: gray;
+}
+.danXuan, .duoXuan ,.duoHang{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    padding: 0;
+    border:solid #cccccc 1px;
+    width: 960px;
+    height: 160px;
+    background-color: white;
+}
+.smallBar {
+    float: left;
+    width: 50px;
+    height: 160px;
+    border-right: solid #cccccc 1px;
+}
+.smallBar p {
+    float: left;
+    margin-left: 14px;
+    margin-top: 10px;
+    height: 20px;
+}
+.smallBar button {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+}
+.smallBar button:last-child {
+    margin-left: 8px;
+}
+.neiBuBiaoTi,.neiBuBiaoTi, .neiBuBiaoTi,.mainBoard, .downBoard {
+    float: right;
+    width: 909px;
+}
+.neiBuBiaoTi ,.neiBuBiaoTi, .neiBuBiaoTi{
+    height: 32px;
+    padding: 0;
+}
+.neiBuBiaoTi p ,.neiBuBiaoTi p, .neiBuBiaoTi p{
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.neiBuBiaoTi input,.neiBuBiaoTi input , .neiBuBiaoTi input{
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.mainBoard input{
+    margin-bottom: 10px;
+    margin-left: 35px;
+
+}
+.mainBoard input:first-child {
+    margin-top: 12px;
+}
+.mainBoard {
+    font-size: 14px;
+    color: gray;
+    height: 90px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.duoHang .mainBoard {
+    overflow: hidden;
+}
+.downBoard {
+    margin-top: 7px;
+}
+.downBoard button {
+    background-color: transparent;
+    border: none;
+}
+.downBoard input {
+    float: right;
+    margin-right: 30px;
+    /*margin: 690px;*/
+    margin-right: 100px;
+
+}
+.downBoard label {
+    float: right;
+    font-size: 14px;
+    margin-left: 0px;
+}
+.duoHang textarea {
+    margin-left: 35px;
+    margin-bottom: 3px;
+}
+
+
+.foot {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    padding: 0;
+    border:solid #cccccc 1px;
+    width: 960px;
+    height: 90px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+.foot p {
+    margin-left: 58px;
+    margin-bottom: 0;
+    color: gray;
+}
+.foot button {
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+    background-color: transparent;
+    border: solid gray thin;
+    border-radius: 4px;
+}
+#save {
+    margin-left: 600px;
+}
+#preload, #publish {
+    margin-left: 30px;
+}

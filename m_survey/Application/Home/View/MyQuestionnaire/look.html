@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天外天问卷中心</title>
+    <link href="__PUBLIC__/css/PCStyle.css" rel="stylesheet">
+    <link rel="icon" href="__PUBLIC__/img/PageIcon.jpg">
+</head>
+<body>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+    $(function(){
+        $("body").prepend("<header class='PC-header'></header>");
+        $(".PC-header").load("{:U('Template/header')}", function(){
+            $(".PC-header ul li:eq(1)").append("<div class='triangleTop'></div>");
+        })
+    })
+</script>
+
+<form class="FillContent" action="__MODULE__/myQuestionnaire/index/p/{$p}{$address}">
+    <h1>{$survey[title]}</h1>
+
+    <h4><span class="star"> * </span>为必答题</h4>
+
+    <img src="__PUBLIC__/img/Icons/LINE.png">
+    <div class="FillContainer">
+        <p class="title">{$survey[description]}</p>
+
+        <!--请务必在第一题的class中加上FirstQues-->
+        <!--单选题-->
+        <foreach name="survey.question" item="detail" key="i">
+            <if condition="$detail.question_type eq 1">
+                <div class="SingleChoose FirstQues">
+                    <if condition="$detail.is_must eq 1">
+                    <span class="star">*</span>
+                    </if>
+                    <p class="QuesTitle">Q{$i+1}.{$detail.question_content}</p>
+                    <foreach name="detail.option" item="op" key="j">
+                        <!--<if condition="$op.is_other neq 1">-->
+                            <input type="radio" name="q[{$detail.question_id}]"  value="{$j}" id="q1[{$detail.question_id}][{$j}]" checked><img src="__PUBLIC__/img/Icons/circleNone.png" width="20" height="20"><img src="__PUBLIC__/img/Icons/circleChoose.png" width="20" height="20">
+                            <label for="q1[{$detail.question_id}][{$j}]" style="margin-left: 12px;">{$op.option_content}</label>
+                            <br>
+                        <!--</if>-->
+                    </foreach>
+                </div>
+
+        <!--多选题-->
+            <elseif condition="$detail.question_type eq 2"/>
+                <div class="MutiChoose">
+                    <if condition="$detail.is_must eq 1">
+                        <span class="star">*</span>
+                    </if>
+                    <p class="QuesTitle">Q{$i+1}.{$detail.question_content}（多选）</p>
+                    <foreach name="detail.option" item="op" key="j">
+
+                    <input type="checkbox"  name="q[{$detail.question_id}][{$j}]" id="q[{$detail.question_id}][{$j}]" value="{$j}"><img src="__PUBLIC__/img/Icons/rectNone.png" width="20" height="20"><img src="__PUBLIC__/img/Icons/rectChoose.PNG" width="20" height="20">
+                    <label for="q[{$detail.question_id}][{$j}]">{$op.option_content}</label>
+                    <br>
+                    </foreach>
+                </div>
+            <else/>
+        <!--填空题-->
+                <div class="FillQues">
+                    <if condition="$detail.is_must eq 1">
+                        <span class="star">*</span>
+                    </if>
+                    <p class="QuesTitle">Q{$i+1}.{$detail.question_content}</p>
+                    <textarea name="q[{$detail.question_id}]" ></textarea>
+                </div>
+            </if>
+        </foreach>
+        <div class="forButton">
+            <button class="submit">返回</button>
+        </div>
+
+    </div>
+</form>
+</body>
+</html>

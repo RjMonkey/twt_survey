@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <title>问卷填写</title>
+    <link href="__PUBLIC__/img/PageIcon.jpg" rel="icon">
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
+</head>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+    $(function(){
+        $("#Ttop").load("{:U('Template/nav-left')}",function(){
+            $(".row h2").text("选择问卷");
+            $(".row-right a").attr("href","{:U('Design/index')}")
+        })
+        // 使超链接支持click事件，方便JavaScript调用
+        $('a').click(function () {
+            location.href = $(this)[0].href;
+            return false;
+        });
+
+        $(".QuesIndexBlock").click(function(){
+            $(this).children("a").click();
+        });
+    })
+
+
+</script>
+<body>
+
+<div id="Ttop"></div>
+
+<div class="QuesIndexContent">
+    <div class="myContent">
+        <form action="__CONTROLLER__/search_result" method="post">
+
+            <input name="content" class="search"><img class="item" src="__PUBLIC__/img/DesignIcons/search.png" width="20" height="20"> <button type="submit" style="display: none" id="hiddenBtn"></button>
+
+        </form>
+    </div>
+    <foreach name="survey" item="data">
+    <!--Block-->
+    <div class="QuesIndexBlock">
+        <a href="__CONTROLLER__/statisticsDetail/survey_id/{$data.survey_id}" style="display: none"></a>
+        <img src="__PUBLIC__/img/QuesIndex/Block2.png">
+        <div class="Qright">
+           <p>{$data.title}</p>
+            <img src="__PUBLIC__/img/QuesIndex/TimeIcon.png"><span>{$data.fabu_time}</span>
+            <br>
+            <img src="__PUBLIC__/img/QuesIndex/WatchedIcon.png"><span>{$data.hit}</span>
+            <br>
+            <img src="__PUBLIC__/img/QuesIndex/AnswerIcon.png"><span>{$data.num_of_answer}</span>
+        </div>
+    </div>
+
+    </foreach>
+    <!--Block-->
+
+    <!--Block-->
+
+</div>
+
+</body>
+</html>

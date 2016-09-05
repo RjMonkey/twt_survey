@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<include file="Public/header" title="天外天问卷中心--问卷信息" />
+<style>
+    .Unit button img{position: relative; top:2px; right: 4px;}
+</style>
+<body style="background-color: white;">
+<if condition="$status eq 1"><script>var tab = "#tab1";</script>
+<else/><script>var tab = "#tab2";</script>
+</if>
+
+<script>
+    var create = "{:U('Design/index', array('survey_id'=>$survey_id))}";
+    $(function(){
+        $("body").prepend("<div id='Ttop'></div>");
+        $("#Ttop").load(navTopUrl,function(){
+            $(".row h2").text("创建问卷信息");
+            $(".row-left a").attr("href",myQ+tab);
+        })
+    })
+
+</script>
+
+<div class="Unit">
+    <!--block-->
+    <div class="Unit-block">
+        <span>{$survey[title]}</span>
+        <span>说明</span>
+    </div>
+    <foreach name="survey.question" item="detail" key="i">
+        <!--block-->
+        <div class="Unit-block">
+            <span>{$detail.question_content}</span>
+            <if condition="$detail.question_type eq 1">
+                <span>单选题</span>
+                <elseif condition="$detail.question_type eq 2"/>
+                <span>多选题</span>
+                <else/>
+                <span>填空题</span>
+            </if>
+        </div>
+    </foreach>
+    <a href="__CONTROLLER__/addQues/survey_id/{$survey_id}"><button class="submit"><img src="__PUBLIC__/img/plusIcon.png" width="16" height="16">添加题目</button></a>
+</div>
+
+</body>
+</html>

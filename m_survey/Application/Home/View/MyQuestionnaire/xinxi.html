@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head lang="zh-cn">
+    <meta charset="utf-8" />
+    <!--<link href="__PUBLIC__/css/tianxiewenjuan.css"/>-->
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <!-- <script src="__PUBLIC__/js/tianxiewenjuan.js"></script> -->
+    <script src="__PUBLIC__/js/tianxie2.js"></script>
+
+</head>
+<body>
+<!--<script>
+    $(document).ready(function () {
+        alert('eeee');
+    });
+</script>-->
+<input type="hidden" id="myId" value={$survey_id}/>
+<!--<script>
+    alert($("#myId").val());
+</script>-->
+<input type="hidden" id="myTitle" value={$survey.title} />
+<input type="hidden" id="myDescription" value={$survey.description}/>
+<input type="hidden" id="myQuestion_number" value={$survey.question_number}/>
+<input type="hidden" id="myQuestion" value={$temp} />
+
+<!--<input type="hidden" id="question" value={$question}/>-->
+
+<form>
+
+    <p id="showTitle"></p>
+    <img src="__PUBLIC__/img/hengxian.png"/>
+    <p id="showDescription"></p>
+    <div id="main">
+        <foreach name="question" key="i" item="id">
+            <div class="block">
+                <if condition="$id['is_must'] eq 1">
+                    <p class="must">*Q</p>
+                    <else />
+                    <p class="must">Q</p>
+                </if>
+                <p class="num">{$i+1}</p>. <p class="title">{$id['question_content']}</p>
+                <if condition="$id['question_type'] eq 1">
+                    <volist name="id['result']" key="j" id="option">
+                        <div class="allList danXuanList"><input type="radio" name="{$id['question_content']}"/><p>{$option}</p><p class="renshu">已选该选项的人共有： {$id['sum'][$j-1]}</p></div>
+                    </volist>
+                </if>
+                <if condition="$id['question_type'] eq 2">
+                    <volist name="id['option']" key="j" id="option" offset="0">
+                        <div class="allList duoXuanList"><input type="checkbox" /><p>{$option}</p><p class="renshu">已选该选项的人共有： {$id['sum'][$j-1]}</p></div>
+                    </volist>
+                </if>
+                <if condition="$id['question_type'] eq 3">
+                    <volist name="id['result']" key="j" id="option" offset="0">
+                    <div class="allList tianKongList"><!--<p>{$id['question_content']}</p>--><textarea>{$option}</textarea></div>
+                    </volist>
+                </if>
+            </div>
+        </foreach>
+    </div>
+
+</form>
+<button id="submitButton" > <img src="__PUBLIC__/img/chakanfanhui.png" /></button>
+<style>
+    body {
+        font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+        padding-top: 0;
+        margin-top: 0;
+        background-color: #f7f7f7;
+    }
+    .renshu {
+        border-left: 3px solid #cccccc;
+        border-bottom: 3px solid #cccccc;
+        margin-left: 30px;
+        /*font-size: 1px;*/
+        color: gray;
+    }
+    #showTitle {
+        text-align: center;
+        margin:0 auto;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    img {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    #showDescription {
+        position: relative;
+        display: block;
+        text-align: center;
+        margin:0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        color: gray;
+    }
+
+    .block {
+        margin-left: 30%;
+    }
+
+    .block p{
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .block p:first-child {
+        margin-left: 0px;
+    }
+
+    #submitButton {
+        display: block;
+        border: none;
+        background: transparent;
+        margin:0 auto;
+    }
+
+
+
+</style>
+<script>
+    $("#submitButton").click(function () {
+        history.back();
+    });
+</script>
+</body>
+</html>

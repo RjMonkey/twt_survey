@@ -1,0 +1,22 @@
+<form class="phoneTag">
+    <div class="QTitle">
+        <p>题目标题</p>
+        <input required class="Qtitle-input" placeholder="请输入题目名称">
+    </div>
+    <div class="Question Qradio">
+        <input type="radio" name="radio" id="r1">
+        <label for="r1" id="l1" ng-click="singleClick()">单选题</label>
+        <input type="radio" name="radio" id="r2">
+        <label for="r2" id="l2" ng-click="mutiClick()">多选题</label>
+    </div>
+    <div class="QTitle" style="padding-top: 18px;">
+        <input required class="Qtitle-input Q2" placeholder="请输入选项名称（必填）">
+        <input required class="Qtitle-input Q2 Q3" placeholder="请输入选项名称（必填）">
+    </div>
+    <div class="Question textCenter AddOne">
+        <a ng-click="addOne()"><img src="__PUBLIC__/img/AddBtn.png" width="22" height="22"><span>添加选项</span></a>
+    </div>
+    <div ng-transclude=""></div>
+    <checkbox style="margin-top: 30px!important;"></checkbox>
+    <button class="submit">确定</button>
+</form>

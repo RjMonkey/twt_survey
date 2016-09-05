@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <title>问卷填写</title>
+    <link href="__PUBLIC__/img/PageIcon.jpg" rel="icon">
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
+</head>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+    $(function(){
+        $("#Ttop").load("{:U('Template/nav-left')}",function(){
+            $(".row h2").text("问卷推荐");
+            $(".row-right a").attr("href","{:U('Design/index')}")
+        })
+    })
+
+</script>
+<body>
+
+<div id="Ttop"></div>
+
+<div class="QuesIndexContent">
+    <div class="myContent">
+        <form action="__CONTROLLER__/search_result" method="post">
+
+            <input  name="content" class="search"><img class="item" src="__PUBLIC__/img/DesignIcons/search.png" width="20" height="20"> <button type="submit" style="display: none" id="hiddenBtn"></button>
+
+        </form>
+    </div>
+    <foreach name="survey" item="data" key="k">
+    <!--Block-->
+    <div class="QuesIndexBlock">
+        <img src="__PUBLIC__/img/QuesIndex/Block{$k % 4 + 1}.png">
+        <div class="Qright">
+            <a href="__CONTROLLER__/index/survey_id/{$data.survey_id}"><p>{$data.title}</p></a>
+            <img src="__PUBLIC__/img/QuesIndex/TimeIcon.png"><span>{$data.fabu_time}</span>
+            <br>
+            <img src="__PUBLIC__/img/QuesIndex/WatchedIcon.png"><span>{$data.hit}</span>
+            <br>
+            <img src="__PUBLIC__/img/QuesIndex/AnswerIcon.png"><span>{$data.num_of_answer}</span>
+        </div>
+    </div>
+    </foreach>
+    <!--Block-->
+
+    <!--Block-->
+
+</div>
+
+</body>
+</html>

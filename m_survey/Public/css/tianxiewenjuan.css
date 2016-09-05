@@ -1,0 +1,55 @@
+body {
+    font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #f7f7f7;
+}
+
+#showTitle {
+    text-align: center;
+    margin:0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#showDescription {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: gray;
+}
+
+.block {
+    margin-left: 30%;
+}
+
+.block p{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.block p:first-child {
+    margin-left: 100px;
+}
+
+#submitButton {
+    display: block;
+    border: none;
+    background: transparent;
+    margin:0 auto;
+}
+
+

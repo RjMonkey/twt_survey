@@ -1,0 +1,104 @@
+body {
+    font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #f7f7f7;
+}
+header {
+    position: relative;
+    height: 75px;
+    width: 100%;
+    background-color: #333333;
+}
+header img#logo {
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+header li {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    margin-left: 70px;
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+}
+header li:first-child{
+    margin-left: 200px;
+}
+header li a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+header button {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    margin-left: 200px;
+    border: none;
+    background-color: transparent;
+    color: #f7f7f7;
+    font-size: 18px;
+}
+header button:last-child{
+    margin-left: 0;
+    border-left: solid #f7f7f7;
+}
+#tag {
+    position:relative;
+    left: 615px;
+    top: -10px;
+    z-index: 200;
+}
+#tuijian {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#exit a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.mainBlock {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 300px;
+}
+
+.wentititle {
+    font-size: 5px;
+    overflow: hidden;
+}
+
+.wenti {
+    border: 1px solid #cccccc;
+    width: 200px;
+    height: 130px;
+    position: relative;
+    float: left;
+    margin: 20px;
+    padding: 0;
+}
+
+.imgtitle {
+    width: 200px;
+    height: 80px;
+}
+
+.xinxi {
+    font-size: 10px;
+    width: 45%;
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    text-align: left;
+}
+.time {
+    margin-left: 5%;
+}

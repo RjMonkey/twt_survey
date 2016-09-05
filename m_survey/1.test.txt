@@ -1,0 +1,3 @@
+测试生成一个文件，该文件由LuManager(LUM)生成，您可以放心删除
+Testing to create a file, this file was created by LuManager(LUM), you can delete it
+2015-12-27 23:19:01(1451229541.81)

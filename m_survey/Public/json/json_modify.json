@@ -1,0 +1,150 @@
+{
+    "survey_id": "251",
+    "title": "测试问卷哦哦哦",
+    "description": "这是一个测试问卷",
+    "create_time": "1464617926",
+    "update_time": "1464617926",
+    "datirenshu": null,
+    "user_id": "5",
+    "surveyimg": null,
+    "anonymity": "0",
+    "fabu_time": null,
+    "survey_status": "0",
+    "end_time": null,
+    "survey_location": null,
+    "hit": "0",
+    "question": [
+        {
+            "question_id": "229",
+            "question_type": "1",
+            "survey_id": "251",
+            "question_num": null,
+            "question_content": "单选题",
+            "is_must": "1",
+            "max_num": null,
+            "row": null,
+            "column": null,
+            "option": [
+                {
+                    "option_id": "219",
+                    "option_content": "第一道单选题",
+                    "question_id": "229",
+                    "is_other": "0",
+                    "option_num": "0",
+                    "survey_id": "251",
+                    "sum": "0"
+                },
+                {
+                    "option_id": "220",
+                    "option_content": "第二道单选题",
+                    "question_id": "229",
+                    "is_other": "0",
+                    "option_num": "1",
+                    "survey_id": "251",
+                    "sum": "0"
+                },
+                {
+                    "option_id": "221",
+                    "option_content": "第三道单选题",
+                    "question_id": "229",
+                    "is_other": "0",
+                    "option_num": "2",
+                    "survey_id": "251",
+                    "sum": "0"
+                }
+            ]
+        },
+        {
+            "question_id": "230",
+            "question_type": "2",
+            "survey_id": "251",
+            "question_num": null,
+            "question_content": "多选题",
+            "is_must": "1",
+            "max_num": null,
+            "row": null,
+            "column": null,
+            "option": [
+                {
+                    "option_id": "222",
+                    "option_content": "第一道多选题",
+                    "question_id": "230",
+                    "is_other": "0",
+                    "option_num": "0",
+                    "survey_id": "251",
+                    "sum": "0"
+                },
+                {
+                    "option_id": "223",
+                    "option_content": "第二道多选题",
+                    "question_id": "230",
+                    "is_other": "0",
+                    "option_num": "1",
+                    "survey_id": "251",
+                    "sum": "0"
+                },
+                {
+                    "option_id": "224",
+                    "option_content": "第三道多选题",
+                    "question_id": "230",
+                    "is_other": "0",
+                    "option_num": "2",
+                    "survey_id": "251",
+                    "sum": "0"
+                }
+            ]
+        },
+        {
+            "question_id": "231",
+            "question_type": "3",
+            "survey_id": "251",
+            "question_num": null,
+            "question_content": "填空题",
+            "is_must": "1",
+            "max_num": null,
+            "row": null,
+            "column": null,
+            "option": []
+        },
+        {
+            "question_id": "232",
+            "question_type": "1",
+            "survey_id": "251",
+            "question_num": null,
+            "question_content": "有一道单选题",
+            "is_must": "0",
+            "max_num": null,
+            "row": null,
+            "column": null,
+            "option": [
+                {
+                    "option_id": "225",
+                    "option_content": "杀死",
+                    "question_id": "232",
+                    "is_other": "0",
+                    "option_num": "0",
+                    "survey_id": "251",
+                    "sum": "0"
+                },
+                {
+                    "option_id": "226",
+                    "option_content": "大师法发达",
+                    "question_id": "232",
+                    "is_other": "0",
+                    "option_num": "1",
+                    "survey_id": "251",
+                    "sum": "0"
+                },
+                {
+                    "option_id": "227",
+                    "option_content": "发的发的发的发",
+                    "question_id": "232",
+                    "is_other": "0",
+                    "option_num": "2",
+                    "survey_id": "251",
+                    "sum": "0"
+                }
+            ]
+        }
+    ]
+}

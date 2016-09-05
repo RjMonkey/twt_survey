@@ -1,0 +1,644 @@
+@charset "UTF-8";
+/*created by Elson Liu in 2015.12.10*/
+/*样式重置*/
+* { margin:0; padding:0;}
+img { border:none; max-width:100%;}
+li{ list-style:none;}
+h1, h2, h3, h4, h5, h6, select, textarea, button,p,a,span,input{ font-family: "微软雅黑";}
+textarea, select{ -moz-appearance: none; -webkit-appearance: none; }
+a,button{cursor: pointer; outline: none!important; }
+a:-webkit-any-link {text-decoration: none;}
+a:-moz-any-link{text-decoration: none;}
+
+body{overflow: scroll; background-color: #f7f7f7; zoom:0.75;}
+
+
+
+.PC-header{
+    width: 100%;
+    background-color: #333333;
+    height: 81px;
+}
+
+.container{
+    width: 1206px;
+    margin: 0 auto;
+}
+
+
+.PC-header img{
+    float: left;
+    margin-top: 21px;
+}
+
+.PC-header ul{
+    float: right;
+}
+
+.PC-header ul li{
+    float: left;
+    margin-left: 55px;
+}
+
+.PC-header ul li a, .PC-header ul li:last-child span, .PC-header ul li{
+    color: white;
+    font-size: 20px;
+    line-height: 81px;
+}
+
+.PC-header ul li:last-child{
+    float: right;
+    margin-left: 164px;
+}
+
+.clearFloat{
+    clear: both;
+}
+
+.triangleTop{
+    width:0;
+    height:0;
+    border-width:0 10px 10px;
+    border-style:solid;
+    border-color:transparent transparent #f7f7f7;/*透明 透明  灰*/
+    margin: -10px 30px;
+    position:absolute;
+}
+
+.content{
+    margin-top: 59px;
+}
+
+.content table{
+    table-layout:fixed;
+    width: 100%;
+    border: 1px solid #7d7d7d;
+    height: 452px;
+}
+
+.content table thead td{
+    border-right: 1px solid #d2d2d2;
+}
+
+.content table td,.content table td a{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    color:#292929;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.content table td a img{
+    margin-right: 6px;
+}
+.content table tbody tr{
+    height: 50px;
+}
+.content table tbody tr td{
+    border-top:1px solid #7d7d7d;
+    border-right: 1px solid #d2d2d2;
+}
+.content table tr td:last-child{
+    border-right: none;
+}
+
+.content ul li{
+    float: left;
+    border: 1px solid #7d7d7d;
+    border-bottom: none;
+}
+.content ul li a{
+    display: block;
+    padding: 12px 16px;
+    color: #3b3b3b;
+}
+.content ul li:last-child{
+    margin-left: 2px;
+}
+
+.active{
+    background-color: #292929;
+
+}
+.active a{
+    color:white!important;
+}
+
+aside{
+    text-align: center;
+    margin-top: 42px;
+}
+aside a{
+    margin-left: 25px;
+    color:#373737;
+    font-size: 18px;
+}
+
+.reveal-modal {
+    visibility: hidden;
+    top: 18% !important;
+    height: 540px;
+    width: 1074px;
+    left: 20%;
+    background: white;
+    position: absolute;
+    z-index: 101;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+    -box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+.close-reveal-modal { cursor: pointer;  position: absolute; top:20px; right: 108px; font-weight: lighter}
+.modal-container{
+    margin-top: 53px;
+}
+
+.Left{
+    float: left ;
+    text-align: right;
+    width: 44%;
+}
+.Left span, .Right span{
+    margin-top: 27px;
+    display: block;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.Left span{
+    color:#222222;
+    font-weight: 500;
+    margin-top: 28px;
+}
+.Right span{
+    color: #505050;
+}
+.Right{
+   float: right;
+    text-align: left;
+    width: 54%;
+}
+
+.FillContent{
+    width: 974px;
+    background-color: white;
+    margin: 44px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.FillContent h1{
+    font-size: 24px;
+    color:#0067d7;
+    font-weight: normal;
+    padding-top: 48px;
+}
+.FillContent h4, .FillContent img{
+    margin-top: 15px;
+}
+.FillContent h4{
+    font-weight: lighter;
+    font-size: 18px;
+    color:#666666;
+}
+
+.FillContainer{
+    width: 800px;
+    margin: 32px auto;
+    text-align: left;
+}
+
+
+.FillContainer input,.FillContainer input+img+img{
+    display: none;
+}
+
+.FillContainer input:checked + img{
+    display: none;
+}
+
+.FillContainer input:checked + img + img{
+    display: inline;
+}
+.FillContainer img{
+    margin-left: 37px;
+    position: relative;
+    top:2px;
+}
+
+.FillContainer span[class='star']{
+    position: relative;
+    top:28px;
+    font-weight:bold;
+}
+
+
+
+.FillContainer img + label{
+    color:#444444;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 5px;
+
+}
+
+
+.FillContainer p.title{
+    color:#999999;
+    font-size: 14px;
+    font-weight: normal;
+    text-indent: 2em;
+    line-height: 2.0;
+}
+
+.FillContainer .QuesTitle{
+    color: #333333;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 24px;
+}
+
+.star{
+    color:red;
+    font-size: 20px;
+}
+
+.FillContainer div{
+    margin-top: 30px;
+}
+
+.FirstQues{
+    margin-top: 0!important;
+}
+
+.FillContainer{
+    color:red;
+}
+
+.submit{
+    border: none;
+    background-color: #0068b7;
+    padding: 10px 25px;
+    color:white;
+    font-size: 18px;
+}
+
+.forButton{
+    margin-left: 2em;
+    margin-top: 38px;
+}
+
+.FillQues textarea{
+    margin-left: 2em;
+    margin-top: 20px;
+    width: 80%;
+    height: 100px;
+    max-width: 80%;
+    min-height: 100px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+
+.DesignContent{
+    width: 1098px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.DesignTitle{
+    width: 100%;
+}
+
+.DesignTitle input.FirstInput,.InputMiddle, .DynamicPart{
+    width: 978px;
+}
+
+.DesignTitle input.FirstInput{
+    border: 1px solid #cccccc;
+    padding: 18px 0;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.InputMiddle,.InputMiddle input{
+    height: 65px;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+
+.InputMiddle{
+    border-top: none;
+}
+
+.InputMiddle input{
+    border-top: none;
+    border-right: none;
+    width: 91%;
+    float: right;
+    text-align: left;
+    color:#666666;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.rightPart{
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 125px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding-bottom: 220px;
+    text-align: center;
+}
+.rightPart ul li:first-child{
+    border-top: 1px solid #eeeeee;
+}
+.rightPart ul li{
+    padding: 18px 0;
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+}
+.rightPart ul li a{
+    color:#666666;
+    font-size: 12px;
+}
+.rightPart ul li img{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.sideNavTop{
+    padding: 29px;
+}
+
+/*Dynapic part*/
+.singleQuesCreate,.mutiplyChoose,.FillQuesD{
+    position: relative;
+    width: 100%;
+    border: 1px solid #cccccc;
+    background-color: white;
+    margin-top: 10px;
+}
+.S-left{
+    width: 69px;
+    text-align: center;
+    display: inline-block;
+}
+.S-left h2, .S-right input:first-child,.S-right h2{
+    color:#333333;
+    font-size: 22px;
+    margin-top: 18px;
+    font-weight: normal;
+}
+
+.S-left img{
+    margin-top: 24px;
+    cursor: pointer;
+}
+.S-left img:last-child{
+    margin-left: -8px;
+    margin-bottom: 10px;
+}
+
+.S-right{
+    height: 100%;
+    padding-left: 15px;
+    margin-left: -10px;
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid #cccccc;
+}
+
+
+.S-right img{
+    margin-top: 12px;
+}
+.S-right img{
+    margin-left: 24px;
+}
+.S-right input{
+    left: 12px;
+    border: none;
+    width: 500px;
+    position: relative;
+    top: -4px;
+}
+.S-right img:last-child{
+    margin-left: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.S-right input[type=checkbox] + img,.S-right input[type=checkbox] + img + img, .S-right input[type=checkbox] + img + img+ label, .part input[type=checkbox] + img,.part input[type=checkbox] + img + img, .part input[type=checkbox] + img + img+ label {
+    position: absolute;
+    right:80px;
+    bottom: 12px;
+}
+.S-right input[type=checkbox] + img + img+ label{
+    right: 40px;
+}
+
+.S-right input[type=checkbox] + img + img,.S-right input[type=checkbox], .part input[type=checkbox] + img + img,.part input[type=checkbox]{
+    display: none;
+}
+
+.S-right input[type=checkbox]:checked + img + img,.part input[type=checkbox]:checked + img + img{
+    display: inline;
+}
+.S-right input[type=checkbox]:checked + img, .part input[type=checkbox]:checked + img{
+    display: none;
+}
+.S-right input:first-child{
+    position: static;
+}
+.S-right textarea{
+    width: 500px;
+    max-width: 500px;
+    min-height: 100px;
+    padding: 5px 10px;
+}
+.reduceBtn{
+    margin-left: 15px!important;
+    margin-bottom: 0!important;
+    float: right;
+    cursor: pointer;
+}
+.part{
+    width: 978px;
+    margin-top: 10px;
+    background-color: white;
+    padding-top: 15px;
+    border: 1px solid #cccccc;
+}
+.part h1{
+    font-size: 22px;
+    color:#666666;
+    margin-left: 84px;
+    font-weight: normal;
+}
+.D-submit{
+    padding: 5px 28px;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+    background-color: transparent;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btnArr{
+    text-align: right;
+}
+.part{
+    position: relative;
+}
+.part input[type=checkbox] + img, .part input[type=checkbox] + img +img, .part input[type=checkbox] + img +img + label{
+    left: 88px;
+    top:70px;
+}
+.part input[type=checkbox] + img +img + label{
+    left: 115px;
+    color: #666666;
+    font-size: 12px;
+    width: 100px;
+}
+
+#myModal11{
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    left:35%;
+    top:30%;
+}
+
+#myModal11 a{
+    right: 40px;
+}
+
+.reveal-p{
+    width: 500px;
+    margin: 60px auto;
+    overflow: hidden;
+    display: block;
+}
+
+.reveal-p + button.submit{
+    width: 120px!important;
+    margin-top: 0!important;
+}
+
+
+.QIndexContent{
+    width: 1100px;
+    margin: 50px auto;
+    position: relative;
+}
+.Qheader{
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #dddddd;
+}
+
+.Qheader h2{
+    font-size: 24px;
+    color:#666666;
+    font-weight: lighter;
+    float: left;
+}
+
+.Qheader input{
+    float: right;
+    border: 1px solid #a3a3a3;
+    width: 180px;
+    font-size:14px;
+    height: 28px;
+    padding: 0 8px;
+    color:#666666;
+}
+
+.Qheader img{
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    cursor: pointer;
+}
+.QLine{
+    margin-top: 32px;
+    width: 100%;
+}
+.QLine .QBlock:first-child{
+    margin-left: 0;
+}
+
+.QLine .QBlock .total{
+    border-bottom: 1px solid #a3a3a3;
+}
+
+.QBlock:hover{
+    border-bottom: 6px solid #585858;
+}
+
+.QBlock:hover>.total{
+    border-bottom: none;
+}
+
+.QBlock{
+    float: left;
+    margin-left: 69.72px;
+    width: 220px;
+    height: 190px;
+    border: 1px solid #a3a3a3;
+    cursor: pointer;
+    border-bottom: 6px solid transparent;
+}
+
+.QBlock p, .total span{
+    font-size:14px;
+    color:#3d3d3d;
+    margin-left: 8px;
+}
+.total{
+    margin-top: 25px;
+    padding-bottom: 6px;
+}
+
+.total img{
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.total span{margin-left: 4px;}
+
+.Qbottom{
+    margin-top: 56px;
+    float: right;
+}
+
+.Qbottom span{
+    background-color: #6b6b6b;
+    color:#f7f7f7;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.Qbottom a{
+    padding: 4px 8px;
+    margin-left: 2px;
+}
+
+.Qbottom a:hover,.ahover{
+    background-color: #ececec;
+}
+
+.FillInQuesTake{font-size: 18px; color:#3e3e3e;}
+

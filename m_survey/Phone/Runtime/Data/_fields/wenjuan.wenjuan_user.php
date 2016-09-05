@@ -1,0 +1,1 @@
+a:7:{i:0;s:7:"user_id";i:1;s:4:"user";i:2;s:9:"survey_id";i:3;s:16:"answer_survey_id";i:4;s:7:"stunumb";s:3:"_pk";s:7:"user_id";s:5:"_type";a:5:{s:7:"user_id";s:8:"int(255)";s:4:"user";s:12:"varchar(255)";s:9:"survey_id";s:12:"varchar(255)";s:16:"answer_survey_id";s:12:"varchar(255)";s:7:"stunumb";s:7:"int(11)";}}

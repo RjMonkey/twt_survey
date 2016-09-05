@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<include file="Public/header" title="天外天问卷中心--我的问卷" />
+
+<style>
+    .reveal-modal {
+        visibility: hidden;
+        top: 100px;
+        height: 150px;
+        width: 80%;
+        margin-left: 10%;
+        background: #eee url(__PUBLIC__/img/modal-gloss.png) no-repeat -200px -80px;
+        position: absolute;
+        z-index: 101;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+        -box-shadow: 0 0 10px rgba(0,0,0,.4);
+    }
+    .reveal-modal span{overflow: hidden; width: 90%; height: auto; display: block; margin: 10px auto; font-size: 12px;}
+</style>
+<script src="__PUBLIC__/js/jquery.validator.js?local=en"></script>
+<script src="__PUBLIC__/js/jquery.reveal.js"></script>
+<script src="__PUBLIC__/js/jquery.zclip.js"></script>
+<script>
+    var create = "{:U('Design/index')}";
+    var navLeftUrl = "{:U('Template/nav-left')}";
+    $(function(){
+        $("#Ttop").load(navLeftUrl,function(){
+            $(".row h2").text("我的问卷");
+            $(".row-right a").attr("href",create)
+        })
+    })
+    $(function(){
+        /*$("#copy").click(function(){
+         var clipboardswfdata = $(this).parent().find("span").val();
+         window.document.clipboardswf.SetData('str', clipboardswfdata);
+         alert(clipboardswfdata);
+         })*/
+
+        $("#copy").zclip({
+            path: "__ROOT__/swf/ZeroClipboard.swf",
+            copy: function(){
+                return $(this).parent().find("span").html();
+            },
+            afterCopy:function(){/* 复制成功后的操作 */
+                alert("复制成功");
+            }
+        });
+    })
+</script>
+<body style="background-color: white;">
+
+<header id="Ttop"></header>
+<!--tags-->
+<div class="phoneTag">
+    <ul class="firstU">
+        <li class="active"><a href="#tab1">已发布</a></li>
+        <img src="__PUBLIC__/img/phone-line.png">
+        <li><a href="#tab2">未发布</a></li>
+    </ul>
+
+    <div class="Update" id="tabs-1">
+        <!--Block-->
+        <foreach name="survey1" item="detail" >
+            <div class="phoneBlock">
+                <p>
+                    {$detail[title]}
+                    <if condition="$detail[survey_status] eq 2 ">
+                        (已结束)
+                        <else/> (已发布)
+                    </if>
+                </p>
+                <ul class="block-hide showfalse">
+                    <li><a href="__CONTROLLER__/look/survey_id/{$detail[survey_id]}/status/{$detail[survey_status]}"><img src="__PUBLIC__/img/search-q.png"></a></li>
+                    <li><a data-reveal-id="myModal" > <img src="__PUBLIC__/img/invate.png"></a></li>
+                    <li><a href="__MODULE__/Design/modify/survey_id/{$detail[survey_id]}/status/{$detail[survey_status]}"><img src="__PUBLIC__/img/qInfo.png"></a></li>
+                    <li><a href="__CONTROLLER__/stop/survey_id/{$detail[survey_id]}/status/{$detail[survey_status]}"><img src="__PUBLIC__/img/StopQ.png"></a></li>
+                </ul>
+            </div>
+        </foreach>
+        <div id="myModal" class="reveal-modal">
+            <span>{$detail[survey_location]}</span>
+            <button id="copy" class="submit" style="border-radius: 5px; width: 100px; letter-spacing: 0; font-size: 15px;">请手动复制地址</button>
+        </div>
+    </div>
+
+
+
+    <foreach name="survey2" item="detail" >
+    <div class="UnUpdate showfalse" id="tabs-2">
+
+            <!--Block-->
+            <div class="phoneBlock">
+                <p>
+
+                    {$detail[title]}
+                    (未发布)
+                </p>
+                <ul class="block-hide showfalse">
+                    <li><a href="__MODULE__/Design/modify/survey_id/{$detail[survey_id]}"><img src="__PUBLIC__/img/Micon1.png"></a></li>
+                    <li><a href="__MODULE__/Design/modify/survey_id/{$detail[survey_id]}"><img src="__PUBLIC__/img/qInfo.png"></a></li>
+                    <li><a href="__CONTROLLER__/delete/survey_id/{$detail[survey_id]}"><img src="__PUBLIC__/img/Dicon2.png"></a></li>
+                    <li><a href="__CONTROLLER__/post/survey_id/{$detail[survey_id]}"><img src="__PUBLIC__/img/Picon3.png"></a></li>
+                </ul>
+            </div>
+
+    </div>
+    </foreach>
+</div>
+
+<script>
+    var liFirst = $(".firstU").find("li:first-child");
+    var liSec = $(".firstU").find("li:last-child");
+
+    getPara();
+    function getPara(){
+        var tmp = window.location.href;
+        var s = tmp.split("#");
+        if(s[s.length-1] == "tab1"){
+            aclick1(liFirst,liSec);
+        }else{
+            aclick2(liFirst,liSec);
+        }
+    }
+
+    function aclick1(liFirst,liSec){
+        $("#tabs-1").show();
+        $("#tabs-2").hide();
+        liFirst.addClass("active");
+        liSec.removeClass("active");
+    }
+
+    function aclick2(liFirst,liSec){
+        $("#tabs-2").show();
+        $("#tabs-1").hide();
+        liSec.addClass("active");
+        liFirst.removeClass("active");
+    }
+
+    liFirst.click(function(){
+        aclick1(liFirst,liSec)
+    });
+
+    liSec.click(function(){
+        aclick2(liFirst,liSec)
+    });
+
+    $(".phoneBlock p").click(function(){
+        var tmp = $(this).next();
+        if( tmp.css("display") == "none" ){
+            tmp.slideDown();
+        }else{
+            tmp.slideUp();
+        }
+    })
+
+    /*$(".phoneBlock p").toggle(function(){
+     $(this).next().slideDown();
+     },function(){
+     $(this).next().slideUp();
+     }
+     );*/
+</script>
+</body>
+</html>

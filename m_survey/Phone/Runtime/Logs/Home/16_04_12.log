@@ -1,0 +1,2823 @@
+[ 2016-04-12T18:35:33+08:00 ] 127.0.0.1 /m_survey/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002886s ]
+
+[ 2016-04-12T18:35:49+08:00 ] 127.0.0.1 /m_survey/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2016-04-12T18:35:57+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0689s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-04-12T18:40:26+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.5258s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2016-04-12T18:40:35+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002193s ]
+
+[ 2016-04-12T18:41:09+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.1932s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002441s ]
+
+[ 2016-04-12T18:41:52+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.1142s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 0 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2016-04-12T18:41:54+08:00 ] 127.0.0.1 /m_survey/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002372s ]
+
+[ 2016-04-12T18:44:05+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.1054s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2016-04-12T18:44:09+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002984s ]
+
+[ 2016-04-12T18:44:09+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2016-04-12T18:44:10+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002419s ]
+
+[ 2016-04-12T18:44:10+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002011s ]
+
+[ 2016-04-12T18:44:14+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002646s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2016-04-12T18:44:14+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2016-04-12T18:44:21+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002384s ]
+
+[ 2016-04-12T18:44:22+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2016-04-12T18:44:42+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2016-04-12T18:45:06+08:00 ] 127.0.0.1 /m_survey/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002472s ]
+
+[ 2016-04-12T18:45:11+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2016-04-12T18:45:15+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.5433s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2016-04-12T18:45:16+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002286s ]
+
+[ 2016-04-12T18:45:17+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002046s ]
+
+[ 2016-04-12T18:45:20+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2016-04-12T18:45:20+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002053s ]
+
+[ 2016-04-12T18:45:21+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2016-04-12T18:45:21+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002216s ]
+
+[ 2016-04-12T18:45:21+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002366s ]
+
+[ 2016-04-12T18:45:21+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2016-04-12T18:46:52+08:00 ] 127.0.0.1 /m_survey/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2016-04-12T18:46:54+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001835s ]
+
+[ 2016-04-12T18:47:50+08:00 ] 127.0.0.1 /m_survey/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2016-04-12T18:47:57+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2016-04-12T18:47:57+08:00 ] 127.0.0.1 /m_survey/index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\xammp\htdocs\m_survey\Application\Home\Common\function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE wenjuan_user.user = 'guorenjie' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2016-04-12T18:48:04+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002360s ]
+
+[ 2016-04-12T18:49:19+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0672s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002685s ]
+
+[ 2016-04-12T18:50:42+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2016-04-12T19:20:19+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2016-04-12T19:23:45+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003114s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002084s ]
+
+[ 2016-04-12T20:36:48+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-04-12T20:37:51+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-04-12T20:38:33+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2016-04-12T20:43:24+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002491s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002347s ]
+
+[ 2016-04-12T20:43:40+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+
+[ 2016-04-12T20:44:31+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2016-04-12T20:45:10+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2016-04-12T20:45:14+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001969s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2016-04-12T20:45:25+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000874s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002319s ]
+
+[ 2016-04-12T20:45:29+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-04-12T20:45:51+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2016-04-12T20:46:07+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2016-04-12T20:46:57+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2016-04-12T20:48:43+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2016-04-12T20:48:48+08:00 ] 127.0.0.1 /m_survey/index.php/Design/fabu/survey_id/119.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '119' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/119',`fabu_time`='1460465328',`survey_status`='1' WHERE wenjuan_main.survey_id = '119' [ RunTime:0.4057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2016-04-12T20:48:49+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002768s ]
+
+[ 2016-04-12T20:48:55+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001859s ]
+
+[ 2016-04-12T20:49:07+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/stop/survey_id/119.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0141s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_status`='2',`end_time`='0' WHERE `survey_id` = 119 [ RunTime:0.0691s ]
+
+[ 2016-04-12T20:49:07+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2016-04-12T20:57:56+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002582s ]
+
+[ 2016-04-12T20:59:06+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0993s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2016-04-12T20:59:53+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2016-04-12T20:59:57+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/stop/survey_id/131.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0510s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_status`='2',`end_time`='0' WHERE `survey_id` = 131 [ RunTime:0.1349s ]
+
+[ 2016-04-12T20:59:57+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002366s ]
+
+[ 2016-04-12T21:00:05+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/119.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '119' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/119',`fabu_time`='1460466005',`survey_status`='1' WHERE wenjuan_main.survey_id = '119' [ RunTime:0.1665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2016-04-12T21:00:30+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-04-12T21:00:35+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/stop/survey_id/119.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003331s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0139s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_status`='2',`end_time`='0' WHERE `survey_id` = 119 [ RunTime:0.1870s ]
+
+[ 2016-04-12T21:00:35+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002717s ]
+
+[ 2016-04-12T21:00:41+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2016-04-12T21:01:17+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000461s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005134s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002420s ]
+
+[ 2016-04-12T21:01:24+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/122.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '122' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/122',`fabu_time`='1460466084',`survey_status`='1' WHERE wenjuan_main.survey_id = '122' [ RunTime:0.1361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2016-04-12T21:03:19+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.4677s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002177s ]
+
+[ 2016-04-12T21:07:18+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003108s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002179s ]
+
+[ 2016-04-12T21:07:24+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2016-04-12T21:08:17+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002239s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-04-12T21:08:23+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2016-04-12T21:12:44+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2016-04-12T21:13:48+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2016-04-12T21:14:11+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2016-04-12T21:14:46+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000698s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2016-04-12T21:15:29+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026970s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003435s ]
+
+[ 2016-04-12T21:15:34+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/117.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004248s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '117' LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/117',`fabu_time`='1460466934',`survey_status`='1' WHERE wenjuan_main.survey_id = '117' [ RunTime:0.1621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002714s ]
+
+[ 2016-04-12T21:15:48+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '113' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/113',`fabu_time`='1460466948',`survey_status`='1' WHERE wenjuan_main.survey_id = '113' [ RunTime:0.2462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2016-04-12T21:16:01+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '113' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/113',`fabu_time`='1460466960',`survey_status`='1' WHERE wenjuan_main.survey_id = '113' [ RunTime:0.1439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002191s ]
+
+[ 2016-04-12T21:16:53+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2016-04-12T21:16:59+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/stop/survey_id/130.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0120s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_status`='2',`end_time`='0' WHERE `survey_id` = 130 [ RunTime:0.0903s ]
+
+[ 2016-04-12T21:16:59+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001980s ]
+
+[ 2016-04-12T21:17:05+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/stop/survey_id/129.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0111s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_status`='2',`end_time`='0' WHERE `survey_id` = 129 [ RunTime:0.1033s ]
+
+[ 2016-04-12T21:17:05+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002492s ]
+
+[ 2016-04-12T21:18:12+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004175s ]
+
+[ 2016-04-12T21:18:17+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/132.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003033s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '132' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/132',`fabu_time`='1460467097',`survey_status`='1' WHERE wenjuan_main.survey_id = '132' [ RunTime:0.1144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002276s ]
+
+[ 2016-04-12T21:18:31+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/132.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '132' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/132',`fabu_time`='1460467110',`survey_status`='1' WHERE wenjuan_main.survey_id = '132' [ RunTime:0.1008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002118s ]
+
+[ 2016-04-12T21:18:38+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2016-04-12T21:21:02+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/116.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '116' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/116',`fabu_time`='1460467262',`survey_status`='1' WHERE wenjuan_main.survey_id = '116' [ RunTime:0.0818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002084s ]
+
+[ 2016-04-12T21:21:09+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003172s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2016-04-12T21:21:14+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/115.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '115' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/115',`fabu_time`='1460467274',`survey_status`='1' WHERE wenjuan_main.survey_id = '115' [ RunTime:0.0845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002531s ]
+
+[ 2016-04-12T21:21:20+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003644s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '114' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `survey_location`='http://survey.twtstudio.com/index.php/Fill/index/survey_id/114',`fabu_time`='1460467280',`survey_status`='1' WHERE wenjuan_main.survey_id = '114' [ RunTime:0.1053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001881s ]
+
+[ 2016-04-12T21:21:26+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002243s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2016-04-12T21:21:34+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002194s ]
+
+[ 2016-04-12T21:23:02+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002759s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002172s ]
+
+[ 2016-04-12T21:23:08+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/132.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '132' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460467388',`survey_status`='1' WHERE wenjuan_main.survey_id = '132' [ RunTime:0.2368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001826s ]
+
+[ 2016-04-12T21:24:22+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2016-04-12T21:24:28+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/131.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003024s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '131' LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460467468',`survey_status`='1' WHERE wenjuan_main.survey_id = '131' [ RunTime:0.1067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001930s ]
+
+[ 2016-04-12T21:25:10+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003534s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2016-04-12T21:26:11+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2016-04-12T21:26:31+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006074s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-04-12T21:26:35+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/129.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002400s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '129' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460467595',`survey_status`='1' WHERE wenjuan_main.survey_id = '129' [ RunTime:0.2265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2016-04-12T21:26:41+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/129.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '129' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460467601',`survey_status`='1' WHERE wenjuan_main.survey_id = '129' [ RunTime:0.2578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002032s ]
+
+[ 2016-04-12T21:26:46+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2016-04-12T21:27:40+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2016-04-12T21:28:00+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002727s ]
+
+[ 2016-04-12T21:28:04+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/132.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '132' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460467684',`survey_status`='1' WHERE wenjuan_main.survey_id = '132' [ RunTime:0.1251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2016-04-12T21:30:08+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.1099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003160s ]
+
+[ 2016-04-12T21:30:12+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/131.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002291s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '131' LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460467812',`survey_status`='1' WHERE wenjuan_main.survey_id = '131' [ RunTime:0.1177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002377s ]
+
+[ 2016-04-12T21:30:21+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002341s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2016-04-12T21:30:27+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/129.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '129' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460467826',`survey_status`='1' WHERE wenjuan_main.survey_id = '129' [ RunTime:0.1192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2016-04-12T21:30:33+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-04-12T21:30:58+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-04-12T21:33:14+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/130.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005971s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '130' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460467994',`survey_status`='1' WHERE wenjuan_main.survey_id = '130' [ RunTime:0.1208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002277s ]
+
+[ 2016-04-12T21:33:20+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/130.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '130' LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460468000',`survey_status`='1' WHERE wenjuan_main.survey_id = '130' [ RunTime:0.4744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2016-04-12T21:34:22+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2016-04-12T21:35:12+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002214s ]
+
+[ 2016-04-12T21:36:16+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2016-04-12T21:36:21+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003347s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2016-04-12T21:36:28+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2016-04-12T21:36:31+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2016-04-12T21:39:05+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001937s ]
+
+[ 2016-04-12T21:39:08+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2016-04-12T21:43:04+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003075s ]
+
+[ 2016-04-12T21:43:08+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2016-04-12T21:43:14+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.1078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 8,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2016-04-12T21:56:51+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001855s ]
+
+[ 2016-04-12T22:06:04+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2016-04-12T22:06:08+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/132.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002422s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '132' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460469968',`survey_status`='1' WHERE wenjuan_main.survey_id = '132' [ RunTime:0.2042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2016-04-12T22:06:10+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002643s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2016-04-12T22:06:14+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/fabu/survey_id/131.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.1344s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE wenjuan_main.survey_id = '131' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] Illegal offset type in isset or empty F:\xammp\htdocs\m_survey\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `wenjuan_main` SET `fabu_time`='1460469974',`survey_status`='1' WHERE wenjuan_main.survey_id = '131' [ RunTime:0.0838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2016-04-12T22:06:16+08:00 ] 127.0.0.1 /m_survey/index.php/Myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` > 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 3 AND `survey_status` = 0 ORDER BY survey_id desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+

@@ -1,0 +1,18 @@
+<!--PC header-->
+<div class="container">
+    <a href="__MODULE__/Index/index"><img src="__PUBLIC__/img/nav-top.png" width="223" height="39"></a>
+    <ul>
+        <li><a href="__MODULE__/MyQuestionnaire/index">我的问卷</a></li>
+        <li><a href="__MODULE__/Fill/fill">问卷填写</a></li>
+        <li><a href="__MODULE__/Design/quesDesign">问卷设计</a></li>
+        <li><a href="__MODULE__/Statics/index">问卷统计</a></li>
+        <li><span>{$Think.session.username}</span> |
+            <if condition="!isset($_SESSION['username'])">
+                <a>登录</a>
+                <else/>
+                <a href="__MODULE__/Index/logout">注销</a>
+            </if>
+        </li>
+    </ul>
+    <div class="clearFloat"></div>
+</div>

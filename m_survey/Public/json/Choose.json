@@ -1,0 +1,132 @@
+{
+    "survey_id": "254",
+    "title": "啦啦啦",
+    "description": "看看",
+    "create_time": "1465042564",
+    "update_time": "1465042564",
+    "datirenshu": null,
+    "user_id": "19",
+    "surveyimg": null,
+    "anonymity": "0",
+    "fabu_time": "1465043773",
+    "survey_status": "1",
+    "end_time": null,
+    "survey_location": null,
+    "hit": "2",
+    "num_of_people": 1,
+    "question": [
+        {
+            "question_id": 1,
+            "question_type": "1",
+            "survey_id": "254",
+            "question_num": null,
+            "question_content": "我何",
+            "is_must": "0",
+            "max_num": null,
+            "row": null,
+            "column": null,
+            "option": [
+                {
+                    "option_id": "238",
+                    "option_content": "驱蚊器",
+                    "question_id": "236",
+                    "is_other": "0",
+                    "option_num": "0",
+                    "survey_id": "254",
+                    "sum": "10"
+                },
+                {
+                    "option_id": "239",
+                    "option_content": "佛挡杀佛",
+                    "question_id": "236",
+                    "is_other": "0",
+                    "option_num": "1",
+                    "survey_id": "254",
+                    "sum": "20"
+                },
+                {
+                    "option_id": "240",
+                    "option_content": "发达商店",
+                    "question_id": "236",
+                    "is_other": "0",
+                    "option_num": "2",
+                    "survey_id": "254",
+                    "sum": "0"
+                }
+            ]
+        },
+        {
+            "question_id": 2,
+            "question_type": "2",
+            "survey_id": "254",
+            "question_num": null,
+            "question_content": "是的范德萨发生的",
+            "is_must": "1",
+            "max_num": null,
+            "row": null,
+            "column": null,
+            "option": [
+                {
+                    "option_id": "241",
+                    "option_content": "空",
+                    "question_id": "237",
+                    "is_other": "0",
+                    "option_num": "0",
+                    "survey_id": "254",
+                    "sum": "20"
+                },
+                {
+                    "option_id": "242",
+                    "option_content": "空",
+                    "question_id": "237",
+                    "is_other": "0",
+                    "option_num": "1",
+                    "survey_id": "254",
+                    "sum": "40"
+                },
+                {
+                    "option_id": "243",
+                    "option_content": "空",
+                    "question_id": "237",
+                    "is_other": "0",
+                    "option_num": "2",
+                    "survey_id": "254",
+                    "sum": "0"
+                }
+            ]
+        },
+        {
+            "question_id": 3,
+            "question_type": "3",
+            "survey_id": "254",
+            "question_num": null,
+            "question_content": "拉的方式的发生的发生",
+            "is_must": "1",
+            "max_num": null,
+            "row": null,
+            "column": null,
+            "option": []
+        },
+        {
+            "question_id": 4,
+            "question_type": "3",
+            "survey_id": "254",
+            "question_num": null,
+            "question_content": "技术的范德萨发生的",
+            "is_must": "0",
+            "max_num": null,
+            "row": null,
+            "column": null,
+            "option": [],
+            "result": [
+                {
+                    "result_content": "皮卡丘皮卡丘"
+                },
+                {
+                    "result_content": "不好"
+                }
+            ],
+            "num_of_answers": 2
+        }
+    ]
+}

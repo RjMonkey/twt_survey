@@ -1,0 +1,392 @@
+[ 2016-06-01T09:00:17+08:00 ] 127.0.0.1 /index.php/Fill/fill.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_status` = 1 ORDER BY hit desc  [ RunTime:0.0006s ]
+ERR: 模板不存在:./Phone/Home/View/Fill/fill.html
+
+[ 2016-06-01T11:51:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-06-01T11:51:22+08:00 ] 127.0.0.1 /index.php/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-06-01T11:51:23+08:00 ] 127.0.0.1 /index.php/myquestionnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载控制器:Myquestionnaire
+
+[ 2016-06-01T11:51:23+08:00 ] 127.0.0.1 /index.php/myquestionnaire/index/p/1/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载控制器:Myquestionnaire
+
+[ 2016-06-01T11:51:27+08:00 ] 127.0.0.1 /index.php/fill/fill
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `survey_status` = 1 ORDER BY hit desc  [ RunTime:0.0003s ]
+ERR: 模板不存在:./Phone/Home/View/Fill/fill.html
+
+[ 2016-06-01T11:51:30+08:00 ] 127.0.0.1 /index.php/myqsnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载控制器:Myqsnaire
+
+[ 2016-06-01T11:51:34+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-06-01T11:51:38+08:00 ] 127.0.0.1 /index.php/index/fill/fill
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+ERR: 非法操作:fill
+
+[ 2016-06-01T11:51:39+08:00 ] 127.0.0.1 /index.php/index/design/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+ERR: 非法操作:design
+
+[ 2016-06-01T11:52:04+08:00 ] 127.0.0.1 /index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-06-01T11:55:06+08:00 ] 127.0.0.1 /index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-06-01T20:52:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-06-01T23:08:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-06-01T23:08:23+08:00 ] 127.0.0.1 /index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-06-01T23:08:30+08:00 ] 127.0.0.1 /index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-06-01T23:22:49+08:00 ] 127.0.0.1 /index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Home/Common/function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-06-01T23:22:49+08:00 ] 127.0.0.1 /index.php/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Home/Common/function.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `user` = 'guorenjie' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-06-01T23:25:28+08:00 ] 127.0.0.1 /index.php/MyQuestionnaire/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `wenjuan_main` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` > 0 ORDER BY survey_status desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wenjuan_main` WHERE `user_id` = 5 AND `survey_status` = 0 ORDER BY survey_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 82 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 83 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 87 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 87 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 89 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 89 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 90 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 90 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 82 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 83 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 87 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 87 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 89 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 89 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 90 行.
+NOTIC: [8] Use of undefined constant survey_status - assumed 'survey_status' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 90 行.
+NOTIC: [8] Use of undefined constant survey_location - assumed 'survey_location' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 94 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 107 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 111 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 112 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant survey_id - assumed 'survey_id' /home/ftp/1520/2014survey.twtstudio.com/2014survey.twtstudio.com/Phone/Runtime/Cache/Home/f288bd5c5407895be9f438f8204d0c93.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-06-01T23:25:28+08:00 ] 127.0.0.1 /index.php/Template/nav-left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+

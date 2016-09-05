@@ -1,0 +1,1 @@
+a:8:{i:0;s:9:"option_id";i:1;s:14:"option_content";i:2;s:11:"question_id";i:3;s:8:"is_other";i:4;s:10:"option_num";i:5;s:9:"survey_id";s:3:"_pk";s:9:"option_id";s:5:"_type";a:6:{s:9:"option_id";s:7:"int(11)";s:14:"option_content";s:12:"varchar(255)";s:11:"question_id";s:7:"int(11)";s:8:"is_other";s:7:"int(11)";s:10:"option_num";s:7:"int(11)";s:9:"survey_id";s:7:"int(11)";}}

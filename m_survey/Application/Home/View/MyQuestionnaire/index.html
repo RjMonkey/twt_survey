@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天外天问卷中心</title>
+    <link href="__PUBLIC__/css/PCStyle.css" rel="stylesheet">
+    <link rel="icon" href="__PUBLIC__/img/PageIcon.jpg">
+    <style>
+        td>p,td>span{display: none;}
+    </style>
+</head>
+<body>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/jquery.reveal.js"></script>
+<script src="__PUBLIC__/js/jquery.zclip.js"></script>
+<script>
+    $(function(){
+        var header = "{:U('Template/header')}";
+        $("body").prepend("<header class='PC-header'></header>");
+        $(".PC-header").load(header, function(){
+            $(".PC-header ul li:first-child").append("<div class='triangleTop'></div>");
+        })
+
+        $("button[name='copy']").zclip({
+            path: "__ROOT__/swf/ZeroClipboard.swf",
+            copy: function(){
+                return $(this).parent().find("span").html();
+            },
+            afterCopy:function(){/* 复制成功后的操作 */
+                alert("复制成功");
+            }
+        });
+
+
+
+        var liFirst = $("#tabsF li:first-child");
+        var liSec = $("#tabsF li:last-child");
+
+        getPara();
+        function getPara(){
+            var tmp = window.location.href;
+            var s = tmp.split("#");
+            if(s[s.length-1] == "tab1"){
+                aclick1();
+            }else{
+                aclick2();
+            }
+        }
+
+        function aclick1(){
+            $("#tab1").show();
+            $("#tab2").hide();
+            $("#tab1-aside").show();
+            $("#tab2-aside").hide();
+            liFirst.addClass("active");
+            liSec.removeClass("active");
+        }
+
+        function aclick2(){
+            $("#tab2").show();
+            $("#tab1").hide();
+            $("#tab2-aside").show();
+            $("#tab1-aside").hide();
+            liSec.addClass("active");
+            liFirst.removeClass("active");
+        }
+
+        liFirst.click(function(){
+            aclick1()
+        });
+
+        liSec.click(function(){
+            aclick2()
+        });
+
+
+
+        /*问卷信息模块*/
+        var UpdateURL = "{:U('MyQuestionnaire/info1')}";
+        var NoneUpdateURL = "{:U('MyQuestionnaire/info2')}";
+        /*显示函数*/
+        var assign = function(val, str){
+            var head = $("#myModalInfo .Right span");
+            if(!val.title){
+                head.eq(0).text("未命名");
+            }else{
+                head.eq(0).text(val.title);
+            }
+            head.eq(1).text(val.create_time);
+            head.eq(2).text(val.update_time);
+            head.eq(3).text(str);
+            head.eq(4).text(val.post_time);
+            head.eq(5).text( val.num_of_question);
+            head.eq(6).text(val.is_login);
+            head.eq(7).text(val.num_of_answerer);
+            console.log(val)
+        }
+        /*问卷信息弹出框*/
+        $("a[data-reveal-id='myModalInfo']").click(function(){
+
+            /*获取点击位置的问卷ID*/
+            var survey_id = $(this).parent().parent().children("td").find("p").html();
+
+            /*判断是已发布还是未发布点击*/
+            if($("#tabsF li.active a").html() == "已发布"){
+                $.ajax({
+                    type:"GET",
+                    dataType: "json",
+                    data: {SID: survey_id},
+                    url: UpdateURL,
+                    success: function(data,t){
+                        $.each(data, function(n,val){
+                            if(val["survey_id"] == survey_id) {
+                                assign(val,"是");
+                            }
+                        });
+                    },
+                    error: function(data){
+                        alert("获取失败")
+                    }
+                })
+            }
+            else{
+                $.ajax({
+                    type:"GET",
+                    dataType: "json",
+                    url: NoneUpdateURL,
+                    success: function(data,t){
+                        $.each(data, function(n,val){
+                            if(val["survey_id"] == survey_id) {
+                                assign(val,"否");
+                            }
+                        });
+                    },
+                    error: function(data){
+                        alert("获取失败")
+                    }
+                })
+            }
+
+        })
+
+        $("a[data-reveal-id='myModal11']").click(function(){
+            var tmp = $(this).parent().parent().children("td").find("span").html();
+            $("#myModal11 span").text(tmp);
+        });
+    })
+</script>
+
+
+<!--问卷信息的弹出层-->
+<div id="myModalInfo" class="reveal-modal">
+    <a class="close-reveal-modal"><img src="__PUBLIC__/img/Icons/closeQ.png" width="26" height="26"></a>
+    <div class="modal-container">
+        <div class="Left">
+            <span>问卷名</span>
+            <span>创建时间</span>
+            <span>最后修改时间</span>
+            <span>是否发布</span>
+            <span>发布时间</span>
+            <span>问题数</span>
+            <span>是否需要登录回答</span>
+            <span>回答人数（收集回答数）</span>
+        </div>
+        <div class="Right">
+            <span>大学生创业调查</span>
+            <span>2015年6月2日,19:15:16</span>
+            <span>2015年6月2日,19:17:16</span>
+            <span>是</span>
+            <span>2015年6月2日,19:20:16</span>
+            <span>3</span>
+            <span>是</span>
+            <span>3</span>
+        </div>
+
+    </div>
+    <!--block-->
+</div>
+
+<section class="content">
+    <div class="container">
+        <ul id="tabsF">
+            <li><a href="#tab1">已发布</a></li>
+            <li><a href="#tab2">未发布</a></li>
+        </ul>
+
+        <table>
+            <thead>
+            <td style="width: 83px">编号</td>
+            <td>标题</td>
+            <td>操作</td>
+            </thead>
+
+            <tbody id="tab1">
+
+            <!--tab1邀请回答弹出层-->
+            <div id="myModal11" class="reveal-modal">
+                <a class="close-reveal-modal"><img src="__PUBLIC__/img/Icons/closeQ.png" width="26" height="26"></a>
+                <span class="reveal-p">www.github.com/Elson8080longWordsTestLongWordsTestlongWordsTestLongWordsTestngWordsTestlongWordsTestLongWordsTest</span>
+                <button name="copy" class="submit" style="border-radius: 5px; width: 100px; letter-spacing: 0; font-size: 15px;">点击复制</button>
+            </div>
+            <!--block-->
+            <foreach name="survey1" item="detail" key="i">
+
+                <tr>
+                    <td>{$i+1}</td>
+                    <td>{$detail[title]}
+                        <if condition="$detail[survey_status] eq 2 ">
+                            (已结束)
+                            <else/> (已发布)
+                        </if>
+                    </td>
+                    <td>
+                        <a href="__CONTROLLER__/download/survey_id/{$detail[survey_id]}"><img src="__PUBLIC__/img/Icons/exportQ.png">导出答案</a>
+                        <a href="__CONTROLLER__/look/survey_id/{$detail[survey_id]}/p/{$p}/m/1"><img src="__PUBLIC__/img/Icons/throughQ.png">查看问卷</a>
+                        <a data-reveal-id="myModal11"><img src="__PUBLIC__/img/Icons/inviteQ.png">邀请回答</a>
+                        <a data-reveal-id="myModalInfo"><img src="__PUBLIC__/img/Icons/inforQ.png">问卷信息</a>
+                        <a href="__CONTROLLER__/stop/survey_id/{$detail[survey_id]}/status/{$detail[survey_status]}"><img src="__PUBLIC__/img/Icons/closeQ.png">停止发布</a>
+                        <p>{$detail[survey_id]}</p>
+                        <span>{$detail[survey_location]}</span>
+                    </td>
+                </tr>
+                <!--控制样式组件，请不要删除-->
+            </foreach>
+            <!--控制样式组件，请不要删除-->
+            <tr style="height: 100%;">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+
+            <tbody id="tab2">
+            <foreach name="survey2" item="detail" key="i">
+                <tr>
+                    <td>{$i+1}</td>
+                    <td>{$detail[title]}(未发布)</td>
+                    <td>
+                        <a href="__MODULE__/Design/modifyQues/survey_id/{$detail[survey_id]}"><img src="__PUBLIC__/img/Icons/check.png">修改问卷</a>
+                        <a href="__CONTROLLER__/delete/survey_id/{$detail[survey_id]}"><img src="__PUBLIC__/img/Icons/closeQ.png">删除问卷</a>
+                        <a href="__CONTROLLER__/look/survey_id/{$detail[survey_id]}/p/{$p}/m/0"><img src="__PUBLIC__/img/Icons/throughQ.png">查看问卷</a>
+                        <a data-reveal-id="myModalInfo"><img src="__PUBLIC__/img/Icons/inforQ.png">问卷信息</a>
+                        <a href="__CONTROLLER__/post/survey_id/{$detail[survey_id]}"><img src="__PUBLIC__/img/Icons/export.png">发布问卷</a>
+                        <p>{$detail[survey_id]}</p>
+                    </td>
+                </tr>
+            </foreach>
+            <!--控制样式组件，请不要删除-->
+            <tr style="height: 100%;">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<aside id="tab1-aside">
+    <a href="__CONTROLLER__/index/p/1/m/1#tab1">首页</a>
+    <a href="__CONTROLLER__/index/p/1/m/1#tab1"> << </a>
+    <a href="__CONTROLLER__/index/p/{$pre}/m/1#tab1"> < </a>
+    <a> {$p} </a>
+    <a href="__CONTROLLER__/index/p/{$after}/m/1#tab1"> > </a>
+    <a href="__CONTROLLER__/index/p/{$last}/m/1#tab1"> >> </a>
+    <a href="__CONTROLLER__/index/p/{$last}/m/1#tab1">尾页</a>
+</aside>
+<aside id="tab2-aside">
+    <a href="__CONTROLLER__/index/p/1/m/0#tab2">首页</a>
+    <a href="__CONTROLLER__/index/p/1/m/0#tab2"> << </a>
+    <a href="__CONTROLLER__/index/p/{$pre}/m/0#tab2"> < </a>
+    <a> {$p} </a>
+    <a href="__CONTROLLER__/index/p/{$after}/m/0#tab2"> > </a>
+    <a href="__CONTROLLER__/index/p/{$last_nonPost}/m/0#tab2"> >> </a>
+    <a href="__CONTROLLER__/index/p/{$last_nonPost}/m/0#tab2">尾页</a>
+</aside>
+</body>
+</html>

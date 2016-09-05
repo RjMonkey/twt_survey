@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<include file="Public/header" title="天外天问卷中心--问卷填写" />
+<body style="background-color: white;">
+
+<script src="__PUBLIC__/js/jquery.validator.js?local=en"></script>
+<script>
+    $(function(){
+        $("body").prepend("<div id='Ttop'></div>");
+        $("#Ttop").load(navTopUrl,function(){
+            $(".row h2").text("创建问卷信息");
+            $(".row-left a").attr("href","{:U('Fill/fill')}");
+        })
+
+        $(".FillContainer>div span.star").siblings("input[type=checkbox]").attr("data-rule","checked");
+        $(".FillContainer>div span.star").siblings("input[type=radio]").attr("data-rule","checked");
+        $(".FillContainer>div span.star").siblings("textarea").attr("data-rule","required;");
+
+        $(".Qlist li:last-child").on("click", function() {
+            var tmp = $(this).children("div");
+            if( $(this).children("input").is(":checked") )
+                tmp.css("display","block");
+        })
+    })
+</script>
+<form action="__CONTROLLER__/add/survey_id/{$survey[survey_id]}" method="post">
+    <div class="phoneTag">
+        <div class="FillQ">
+            <p class="title">{$survey[title]}</p>
+        </div>
+        <!--block单选题-->
+        <foreach name="survey.question" item="detail" key="i">
+            <if condition="$detail.question_type eq 1">
+                <div class="FillQ">
+                    <p class="QName">Q{$i+1}.{$detail.question_content}<if condition="$detail.is_must eq 1"><span style="color:red">*</span></if></p>
+                    <ul class="Qlist">
+                        <foreach name="detail.option" item="op" key="j">
+                            <if condition="$op.is_other neq 1">
+                                <li>
+                                    <input type="radio" name="q[{$detail.question_id}]" id="q1[{$detail.question_id}][{$j}]" value="{$j}">
+                                    <label for="q1[{$detail.question_id}][{$j}]">{$op.option_content}</label>
+                                </li>
+
+                                <else/>
+                                <li>
+                                    <input type="radio" name="q[{$detail.question_id}]" value="other" id="q14">
+                                    <label for="q14">其他</label>
+                                    <div class="HiddenInput">
+                                        <input type="text" name="q[{$detail.question_id}]">
+                                    </div>
+                                </li>
+                            </if>
+                        </foreach>
+                    </ul>
+                </div>
+                <elseif condition="$detail.question_type eq 2"/>
+                <!--block多选题-->
+                <div class="FillQ">
+                    <p class="QName">Q{$i+1}.{$detail.question_content}<if condition="$detail.is_must eq 1"><span style="color:red">*</span></if></p>
+                    <ul class="Qlist">
+                        <foreach name="detail.option" item="op" key="j">
+                            <if condition="$op.is_other neq 1">
+                                <li>
+                                    <input type="checkbox" name="q[{$detail.question_id}][{$j}]" id="q2[{$detail.question_id}][{$j}]" value="{$j}">
+                                    <label for="q2[{$detail.question_id}][{$j}]">{$op.option_content}</label>
+                                </li>
+                                <else/>
+                                <li>
+                                    <input type="checkbox" name="q[{$detail.question_id}][{$j}]" value="other" id="q24">
+                                    <label for="q24">其他</label>
+                                    <div class="HiddenInput">
+                                        <input type="text" name="q[{$detail.question_id}][{$j}]">
+                                    </div>
+                                </li>
+                            </if>
+                        </foreach>
+                    </ul>
+                </div>
+                <else/>
+                <!--block填空题-->
+                <div class="FillQ">
+                    <p class="QName">Q{$i+1}.{$detail.question_content}<if condition="$detail.is_must eq 1"><span style="color:red">*</span></if></p>
+                    <textarea class="myArea" name="q[{$detail.question_id}]" min-height="22"></textarea>
+                </div>
+            </if>
+        </foreach>
+        <button class="submit">提交</button>
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天外天问卷中心</title>
+    <link href="__PUBLIC__/css/PCStyle.css" rel="stylesheet">
+    <link rel="icon" href="__PUBLIC__/img/PageIcon.jpg">
+    <style>
+        input{
+            outline:medium;
+        }
+    </style>
+</head>
+<body>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+    $(function(){
+        $(".DynamicPart").delegate(".dynamic input[type=checkbox]+img+img+label","click",function(){
+            var tmp = $(this).parent().find("input[type=checkbox]");
+            if(tmp.prop("checked")){
+                tmp.removeAttr("checked");
+            }else{
+                tmp.prop("checked","checked");
+            }
+        })
+
+
+
+        var items = "{:U('Template/items')}";
+        $("body").prepend("<header class='PC-header'></header>");
+        $(".PC-header").load("{:U('Template/header')}", function(){
+            $(".PC-header ul li:eq(2)").append("<div class='triangleTop'></div>");
+        })
+
+        /*添加单选题*/
+        $(".rightPart ul li:eq(0) a").click(function(){
+            $.get(items, function(data){
+                var tmp = $(data)[6].innerHTML;
+                $(".DynamicPart").append(tmp);
+                SingleClick()
+            })
+        })
+        /*添加多选题*/
+        $(".rightPart ul li:eq(1) a").click(function(){
+            $.get(items, function(data){
+                console.log($(data));
+                var tmp = $(data)[10].innerHTML;
+                $(".DynamicPart").append(tmp);
+                MutiClick();
+            })
+        })
+
+        /*添加填空题*/
+        $(".rightPart ul li:eq(2) a").click(function(){
+            $.get(items, function(data){
+                console.log($(data));
+                var tmp = $(data)[14].innerHTML;
+                $(".DynamicPart").append(tmp);
+            })
+        })
+
+        /*其他题目*/
+        $(".rightPart ul li:eq(3) a").click(function(){
+            tempClick();
+        })
+        $(".rightPart ul li:eq(4) a").click(function(){
+            tempClick();
+        })
+        function tempClick(){
+            alert("功能正在实现中，敬请稍后");
+        }
+
+        /*单选题添加选项*/
+        function SingleClick() {
+            $(".singleQuesCreate .S-right img:last-child").click(function () {
+                $.get(items, function (data) {
+                            var tmp = $(data)[0].innerHTML;
+                            $(this).parent().children("div").append("<div>" + tmp + "</div>");
+                        }.bind(this)
+                )
+            });
+        }
+
+        /*多选题添加选项*/
+        function MutiClick(){
+            $(".mutiplyChoose .S-right img:last-child").click(function(){
+                $.get(items, function(data){
+                            var tmp = $(data)[2].innerHTML;
+                            $(this).parent().children("div").append("<div>" + tmp + "</div>");
+                        }.bind(this)
+                )
+            });
+        }
+
+        SingleClick()
+        MutiClick()
+
+
+        /*上移或下移*/
+
+
+        /*事件委托删除选项和题目*/
+        $(".DynamicPart").delegate(".S-right .reduceBtn","click",function(){
+            $(this).parent().remove();
+        })
+/*        $(".DynamicPart").delegate(".S-left img","click",function(event){
+            var tmp = event.target.getAttribute("src");
+            var s =  $(this).parent().parent();
+            var arr = ["singleQuesCreate","mutiplyChoose","FillQuesD"];
+            switch(tmp){
+                case "../img/DesignIcons/TopAngle.png":
+                    if($.inArray(s.before().attr("class"),arr)){
+                        s.prev().before(s);
+                    }
+                    break;
+                case "../img/DesignIcons/boAngle.png":
+                    if($.inArray(s.next().attr("class"),arr)){
+                        s.next().after(s);
+                    }
+                    break;
+                case "../img/DesignIcons/garbage.png":
+                    s.remove();
+                    break;
+            }
+
+        })*/
+        $(".DynamicPart").delegate(".S-left img","click",function(event){
+            var tmp = event.target.getAttribute("src");
+            var s =  $(this).parent().parent();
+            var arr = ["singleQuesCreate","mutiplyChoose","FillQuesD"];
+            switch(tmp){
+                case "__PUBLIC__/img/DesignIcons/TopAngle.png":
+                    break;
+                case "__PUBLIC__/img/DesignIcons/boAngle.png":
+                    break;
+                case "__PUBLIC__/img/DesignIcons/garbage.png":
+                    s.remove();
+                    break;
+            }
+
+        })
+
+    })
+</script>
+
+<form class="DesignContent" >
+    <div class="DesignTitle">
+        <input class="FirstInput" type="text" placeholder="点击添加问卷标题" required>
+        <br>
+        <div class="InputMiddle">
+            <input type="text" placeholder="欢迎参加本次答题，点击添加问卷介绍" required>
+        </div>
+    </div>
+
+    <div class="DynamicPart">
+        <!--单选题-->
+        <div class="singleQuesCreate">
+            <div class="S-left">
+                <h2>Q1</h2>
+                <img src="__PUBLIC__/img/DesignIcons/TopAngle.png" width="18" height="20">
+                <br>
+                <img src="__PUBLIC__/img/DesignIcons/boAngle.png" width="18" height="20">
+                <br>
+                <img src="__PUBLIC__/img/DesignIcons/garbage.png" width="20" height="20">
+            </div>
+            <div class="S-right">
+                <input type="text" placeholder="单选题题目" required>
+                <div>
+                    <img src="__PUBLIC__/img/Icons/circleNone.png" style="margin-top: 20px;"><input type="text" placeholder="请填写选项" required>
+                    <br>
+                    <img src="__PUBLIC__/img/Icons/circleNone.png"><input type="text" placeholder="请填写选项" required>
+                    <br>
+                    <img src="__PUBLIC__/img/Icons/circleNone.png"><input type="text" placeholder="请填写选项" required>
+                </div>
+                <input type="checkbox" id="Q1"><img src="__PUBLIC__/img/Icons/rectNone.png" width="20" height="20"><img src="__PUBLIC__/img/Icons/rectChoose.PNG" width="20" height="20"><label for="Q1">必填</label>
+                <img src="__PUBLIC__/img/DesignIcons/AddOne.png" width="22" height="22">
+            </div>
+        </div>
+
+        <!--多选题-->
+        <div class="mutiplyChoose">
+            <div class="S-left">
+                <h2>Q2</h2>
+                <img src="__PUBLIC__/img/DesignIcons/TopAngle.png" width="18" height="20">
+                <br>
+                <img src="__PUBLIC__/img/DesignIcons/boAngle.png" width="18" height="20">
+                <br>
+                <img src="__PUBLIC__/img/DesignIcons/garbage.png" width="20" height="20">
+            </div>
+            <div class="S-right">
+                <input type="text" placeholder="多选题题目" required>
+                <div>
+                    <img src="__PUBLIC__/img/Icons/rectNone.png" width="18" height="18" style="margin-top: 20px;"><input type="text" placeholder="请填写选项" required>
+                    <br>
+                    <img src="__PUBLIC__/img/Icons/rectNone.png" width="18" height="18" ><input type="text" placeholder="请填写选项" required>
+                    <br>
+                    <img src="__PUBLIC__/img/Icons/rectNone.png" width="18" height="18" ><input type="text" placeholder="请填写选项" required>
+                </div>
+                <input type="checkbox" id="Q2"><img src="__PUBLIC__/img/Icons/rectNone.png" width="20" height="20"><img src="__PUBLIC__/img/Icons/rectChoose.PNG" width="20" height="20"><label for="Q2">必填</label>
+                <img src="__PUBLIC__/img/DesignIcons/AddOne.png" width="22" height="22">
+            </div>
+        </div>
+
+        <!--填空题-->
+        <div class="FillQuesD">
+            <div class="S-left">
+                <h2>Q3</h2>
+                <img src="__PUBLIC__/img/DesignIcons/TopAngle.png" width="18" height="20">
+                <br>
+                <img src="__PUBLIC__/img/DesignIcons/boAngle.png" width="18" height="20">
+                <br>
+                <img src="__PUBLIC__/img/DesignIcons/garbage.png" width="20" height="20">
+            </div>
+            <div class="S-right">
+                <input type="text" placeholder="填空题题目" required>
+                <br><br>
+                <textarea></textarea>
+                <input type="checkbox" id="Q3"><img src="__PUBLIC__/img/Icons/rectNone.png" width="20" height="20"><img src="__PUBLIC__/img/Icons/rectChoose.PNG" width="20" height="20"><label for="Q3">必填</label>
+                <div style="padding-bottom: 10px; height: 20px;"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--右侧导航栏-->
+    <div class="rightPart">
+        <div class="sideNavTop">
+            <a><img src="__PUBLIC__/img/back.png" width="48" height="48"></a>
+        </div>
+        <ul>
+            <li><a><img src="__PUBLIC__/img/DesignIcons/single.png">单项选择题</a></li>
+            <li><a><img src="__PUBLIC__/img/DesignIcons/Muti.png">多项选择题</a></li>
+            <li><a><img src="__PUBLIC__/img/DesignIcons/Mutiply.png">多行填空题</a></li>
+            <li><a><img src="__PUBLIC__/img/DesignIcons/downMenu.png">下拉选项题</a></li>
+            <li><a><img src="__PUBLIC__/img/Icons/export.png">附件上传题</a></li>
+        </ul>
+    </div>
+
+    <div class="part">
+        <h1>感谢您的配合</h1>
+        <input type="checkbox" id="niming"><img src="__PUBLIC__/img/Icons/rectNone.png" width="20" height="20"><img src="__PUBLIC__/img/Icons/rectChoose.PNG" width="20" height="20"><label for="niming">允许匿名填写</label>
+        <div class="btnArr">
+            <a href="__MODULE__/myQuestionnaire/index"> <input type="button" class="D-submit" value="保存"></a>
+            <!--<input type="button" class="D-submit" value="预览">-->
+            <!--<input type="button" class="D-submit" value="发布">-->
+        </div>
+    </div>
+</form>
+
+<script>
+    /*传给后台的JSON*/
+    var URL = "{:U('Design/insert')}";
+
+
+
+    /*json格式*/
+    var JsonObj = [];
+    var QuestionObj = function(Qid, type, content, option, is_must){
+        this.Qid = Qid;
+        this.type = type;
+        this.content = content;
+        this.option = option;
+        this.is_must = is_must;
+    }
+
+    $(function(){
+        $(".btnArr input:first-child").click(function(){
+            /*var type = $(".DynamicPart>div:eq("+i+")").find(".S-left h2").html()[1];*/
+            var QTitle = {QTitle: $("input.FirstInput").val() };
+            var QInfo = {QInfo: $(".InputMiddle > input").val()};
+            var Niming = {Niming: $("#niming").is(":checked")?"1":"0"};
+
+            //问题数目
+            var Qnum = $(".DynamicPart>div").length;
+
+            JsonObj.push(QTitle);
+            JsonObj.push(QInfo);
+            JsonObj.push(Niming);
+            var i;
+            var arr = ["singleQuesCreate","mutiplyChoose","FillQuesD"];
+            for(i=0; i<Qnum; i++){
+                var tmp = $(".DynamicPart>div:eq("+i+")");
+
+                /*Qid获取*/
+                var Qid = i+1;
+                /*获取题目类型*/
+                var type = tmp.attr("class");
+                switch(type){
+                    case "singleQuesCreate":
+                        type = "1";
+                        break;
+                    case "mutiplyChoose":
+                        type = "2";
+                        break;
+                    case "FillQuesD":
+                        type = "3";
+                        break;
+                }
+                /*获取题目*/
+                var content = tmp.find(".S-right input:first-child").val();
+
+                /*获取是否必须填写*/
+                var is_must = tmp.find(".S-right>input[type=checkbox]");
+                if(is_must.is(":checked")){
+                    is_must = "1";
+                }else{
+                    is_must = "0"
+                }
+
+                if(type == 1 || type == 2){
+                    /*获取option选项*/
+                    var option = [];
+                    var optionNum = tmp.find(".S-right>div input").length;
+                    var j;
+                    for(j=0; j<optionNum; j++){
+                        var F = tmp.find(".S-right>div input:eq("+j+")").val();
+                        option.push(F);
+                    }
+                    option = option.join("@");
+                    var tempObj = new QuestionObj(Qid, type, content, option, is_must);
+                    JsonObj.push(tempObj)
+                }
+                else{
+                    var tempObj = new QuestionObj(Qid, type, content, "", is_must);
+                    JsonObj.push(tempObj)
+                }
+            }
+            JsonObj = JSON.stringify(JsonObj);
+            $.ajax({
+                type: "POST",
+                url: URL,
+                data:JsonObj,
+                beforeSend: function(data){
+//                    alert(JsonObj);
+                },
+                success: function(){
+                    alert("您已成功保存");
+                },
+                error : function(d){
+                    console.log()
+                }
+            })
+        })
+
+
+        /*$(".btnArr").hover(function(){
+         $("input[required]").each(function(){
+         var value = $(this).val();
+         if(value == "")
+         submit();
+         else
+         button();
+         });
+         $(".S-right input[required]").each(function(){
+         var value = $(this).val();
+         if(value == "") {
+         submit();
+         }
+         else
+         button();
+         })
+
+         })
+
+         function submit(){
+         $(".btnArr input").attr("type", "submit");
+         }
+
+         function button(){
+         $(".btnArr input").attr("type", "button");
+         }*/
+    })
+</script>
+
+</body>
+</html>

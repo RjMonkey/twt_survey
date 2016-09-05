@@ -1,0 +1,426 @@
+body {
+    font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #f7f7f7;
+}
+header {
+    position: relative;
+    height: 75px;
+    width: 100%;
+    background-color: #333333;
+}
+header img#logo {
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+header li {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    margin-left: 70px;
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+}
+header li:first-child{
+    margin-left: 200px;
+}
+header li a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+header button {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    margin-left: 200px;
+    border: none;
+    background-color: transparent;
+    color: #f7f7f7;
+    font-size: 18px;
+}
+header button:last-child{
+    margin-left: 0;
+    border-left: solid #f7f7f7;
+}
+#tag {
+    position:relative;
+    left: 772px;
+    top: -10px;
+    z-index: 9989;
+}
+.biaoTiClass {
+    position: relative;
+    float: left;
+    margin-left: 150px;
+    width: 960px;
+    height: 100px;
+    border:solid #cccccc 1px;
+    background-color: white;
+}
+.workClass {
+    position: relative;
+    border-bottom: solid #cccccc 1px;
+    height: 50%;
+}
+.workClass p, .workClass input{
+    position: relative;
+    float: left;
+    margin-left: 45%;
+    margin-top: 12px;
+}
+.leftTag {
+    position: relative;
+    float: left;
+    border-right:solid #cccccc 1px;
+    width: 5%;
+    height: 50%;
+}
+.rightTag p,.rightTag input{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    width: auto;
+    height: 50%;
+    color: gray;
+}
+.sidebar {
+    position: relative;
+    float: right;
+    margin-right:100px;
+    margin-left: 5px;
+    margin-top: 0px;
+    width: 109px;
+    height: 400px;
+    background-color: white;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+}
+#exitButton {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.sidebar #exitButton img {
+    position: relative;
+    margin-left: 29%;
+    margin-top: 23%;
+}
+.addButton {
+    position: relative;
+    height: 45px;
+}
+.danXuan, .duoXuan ,.duoHang{
+    position: relative;
+    float: left;
+    margin-left: 150px;
+    width: 960px;
+    height: 160px;
+    margin-top: 10px;
+    font-size: 18px;
+    border:solid #cccccc 1px;
+    background-color: white;
+}
+.smallBar {
+    position: relative;
+    float: left;
+    width: 5%;
+    height: 160px;
+    border-right: solid #cccccc 1px;
+}
+.smallBar p {
+    position: relative;
+    float: left;
+    margin-left: 14px;
+    margin-top: 10px;
+    height: 20px;
+}
+.smallBar button {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+}
+.smallBar button:last-child {
+    margin-left: 8px;
+}
+.neiBuBiaoTi,.neiBuBiaoTi, .neiBuBiaoTi,.mainBoard, .downBoard {
+    position: relative;
+    float: left;
+    width: 93%;
+}
+.neiBuBiaoTi ,.neiBuBiaoTi, .neiBuBiaoTi{
+    height: 32px;
+}
+.neiBuBiaoTi p ,.neiBuBiaoTi p, .neiBuBiaoTi p,.neiBuBiaoTi input,.neiBuBiaoTi input , .neiBuBiaoTi input{
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mainBoard input{
+    margin-bottom: 10px;
+    margin-left: 35px;
+
+}
+.mainBoard input:first-child {
+    margin-top: 12px;
+}
+.mainBoard {
+    position: relative;
+    float: left;
+    font-size: 14px;
+    color: gray;
+    height: 90px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.duoHang .mainBoard {
+    overflow: hidden;
+}
+.downBoard {
+    position: relative;
+    float: left;
+    margin-top: 7px;
+}
+.downBoard button {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+.downBoard input {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+
+}
+.downBoard label {
+    position: relative;
+    float: right;
+    margin-right: 0px;
+    font-size: 14px;
+}
+.duoHang textarea {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.foot {
+    position: relative;
+    float: left;
+    margin-left: 150px;
+    width: 960px;
+    margin-top: 10px;
+    margin-right: 0;
+    font-size: 18px;
+    border:solid #cccccc 1px;
+    height: 90px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+.foot p {
+    margin-left: 58px;
+    margin-bottom: 0;
+    color: gray;
+}
+.foot button,.foot input[type="submit"] {
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+    background-color: transparent;
+    border: solid gray thin;
+    border-radius: 4px;
+}
+#save {
+    margin-left: 600px;
+}
+#preload, #publish {
+    margin-left: 30px;
+}
+/*
+form[name="tiJiao"] {
+    display: none;
+}*/
+#zheZhao {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9990;
+}
+#sureToExit button,#sureToPublish button {
+    background-color: transparent;
+    border: none;
+}
+#sureToExit {
+    z-index: 9991;
+    position: fixed;
+    left: 35%;
+    top: 200px;
+    background-color: white;
+    border: 1px #cccccc solid;
+    width: 350px;
+    height:250px;
+}
+#sureToExit img[src="img/sureToExitName.png"] {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#inLeave1 {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#sureToExit p {
+    position: relative;
+    float: left;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+#inSave {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+#inExit {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+#sureToPublish {
+    z-index: 9991;
+    position: fixed;
+    left: 35%;
+    top: 200px;
+    background-color: white;
+    border: 1px #cccccc solid;
+    width: 350px;
+    height:250px;
+}
+#inLeave2 {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#p1 {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+#p2 {
+    position: relative;
+    float: left;
+    margin-top: 120px;
+    margin-left: -80px;
+}
+#inSure {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+#inExit2 {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+#canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9990;
+  background-color: white;
+}
+.canvaBiaoTi {
+  /*display: block;*/
+  color: blue;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.canvaSmallTalk {
+  /*display: block;*/
+  color: black;
+  font-size: 18px;
+  width: 40%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: #0000AA  solid 3px;
+}
+.canvaDescription {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 16px;
+  color: gray;
+}
+.canvaBlock {
+  width: 90%;
+  position: relative;
+  /*text-align: center;*/
+  clear: left;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.canvaBlockNum ,.canvaBlockBiaoTi{
+  font-size: 26px;
+  font-weight: bold;
+  float:left;
+  margin-right: 0;
+  margin-left: 10%;
+}
+.canvaBlockBiaoTi {
+  float: left;
+  margin-left: 0;
+}
+.canvaBlockMain {
+  clear: left;
+  float: left;
+  margin-top: 0;
+  margin-left: 13%;
+  font-size: 20px;
+
+}
+.canvaButton {
+  position: relative;
+  float: left;
+  /*margin-top: 98%;*/
+  margin-top: 50px;
+  margin-left: 15%;
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: blue;
+  border: #cccccc 1px solid;
+  clear: both;
+}
+#exit a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
